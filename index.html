@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MazoCatedrales · Atlas Cristiano Mundial</title>
+<title>MazoCatedrales Â· Atlas Cristiano Mundial</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
       integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,7 +14,7 @@
   // Fallback: si cdnjs falla, probar unpkg
   window.addEventListener('DOMContentLoaded', () => {
     if (typeof L === 'undefined') {
-      console.warn('Leaflet no cargó desde cdnjs, intentando unpkg...');
+      console.warn('Leaflet no cargÃ³ desde cdnjs, intentando unpkg...');
       const css = document.createElement('link');
       css.rel = 'stylesheet';
       css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
@@ -23,7 +23,7 @@
       s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
       s.onload = () => window.__initMazo && window.__initMazo();
       s.onerror = () => {
-        document.body.innerHTML = '<div style="padding:40px;font-family:monospace;color:#e8e3d5;background:#0f0e0c;height:100vh;">ERROR: No se pudo cargar Leaflet. Revisa tu conexión o bloqueadores de CDN (cdnjs.cloudflare.com, unpkg.com).</div>';
+        document.body.innerHTML = '<div style="padding:40px;font-family:monospace;color:#e8e3d5;background:#0f0e0c;height:100vh;">ERROR: No se pudo cargar Leaflet. Revisa tu conexiÃ³n o bloqueadores de CDN (cdnjs.cloudflare.com, unpkg.com).</div>';
       };
       document.head.appendChild(s);
     }
@@ -40,10 +40,10 @@
     --fg-faded: #6b6557;
     --accent: #c9a227;       /* oro viejo */
     --accent-dim: #8a6f1a;
-    --rust: #9b3a1f;         /* rojo óxido */
+    --rust: #9b3a1f;         /* rojo Ã³xido */
     --border: #2e2a24;
     --catolica: #c9a227;     /* oro */
-    --ortodoxa: #9b3a1f;     /* rojo óxido */
+    --ortodoxa: #9b3a1f;     /* rojo Ã³xido */
     --anglicana: #4a6b8a;    /* azul piedra */
     --protestante: #5d7a4a;  /* verde musgo */
     --historica: #8a7b6b;    /* gris piedra */
@@ -195,7 +195,7 @@
     color: var(--accent-dim);
     font-family: 'IBM Plex Mono', monospace;
   }
-  .brand-meta::before { content: "» "; color: var(--rust); }
+  .brand-meta::before { content: "Â» "; color: var(--rust); }
 
   /* Search */
   .search-wrap { padding: 14px 20px; border-bottom: 1px solid var(--border); }
@@ -488,7 +488,7 @@
     text-transform: uppercase;
   }
   .map-badge .rust-dot::before {
-    content: "■";
+    content: "â– ";
     color: var(--rust);
     margin-right: 6px;
   }
@@ -509,13 +509,13 @@
       <div>
         <div class="brand-title">Mazo<span class="amp">&</span>Catedrales</div>
         <div class="brand-sub">Atlas Cristiano Mundial</div>
-        <div class="brand-meta">forja nova · registro cartográfico</div>
+        <div class="brand-meta">forja nova Â· registro cartogrÃ¡fico</div>
       </div>
       <button class="mobile-close" id="sidebar-close" aria-label="Cerrar panel">&times;</button>
     </div>
 
     <div class="search-wrap">
-      <input type="text" class="search-input" id="search" placeholder="buscar catedral, ciudad, país…">
+      <input type="text" class="search-input" id="search" placeholder="buscar catedral, ciudad, paÃ­sâ€¦">
     </div>
 
     <div class="filters">
@@ -536,7 +536,7 @@
     <div class="list" id="list"></div>
 
     <div class="foot">
-      <span>v0.1 · prototipo</span>
+      <span>v0.1 Â· prototipo</span>
       <span class="rust">foc i ferro</span>
     </div>
   </aside>
@@ -551,212 +551,29 @@
 </div>
 
 <script>
-window.__initMazo = function() {
+window.__initMazo = async function() {
   if (typeof L === 'undefined') {
     console.error('Leaflet sigue sin estar disponible');
     return;
   }
+
+  async function loadData() {
+    const response = await fetch('data.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('No se pudo cargar data.json');
+    return response.json();
+  }
 // === DATASET ===
-// Catedrales curadas, distribución global por denominación.
+// Catedrales curadas, distribuciÃ³n global por denominaciÃ³n.
 // Tipos: catolica, ortodoxa, anglicana, protestante, historica
-const DATA = [
-  // === ESPAÑA ===
-  {name:"Catedral de Santa María de la Sede", city:"Sevilla", country:"España", lat:37.3858, lng:-5.9933, denom:"catolica", year:1528, note:"La catedral gótica más grande del mundo. Sepulcro de Cristóbal Colón."},
-  {name:"Catedral de Santa María", city:"Burgos", country:"España", lat:42.3406, lng:-3.7044, denom:"catolica", year:1260, note:"Patrimonio UNESCO. Gótico castellano puro."},
-  {name:"Catedral de Toledo", city:"Toledo", country:"España", lat:39.8570, lng:-4.0240, denom:"catolica", year:1493, note:"Sede primada de España."},
-  {name:"Sagrada Família", city:"Barcelona", country:"España", lat:41.4036, lng:2.1744, denom:"catolica", year:2026, note:"Basílica de Gaudí. Culminación prevista tras 144 años de obras."},
-  {name:"Catedral de Santiago de Compostela", city:"Santiago", country:"España", lat:42.8806, lng:-8.5447, denom:"catolica", year:1211, note:"Meta del Camino. Sepulcro del apóstol Santiago."},
-  {name:"Catedral de León", city:"León", country:"España", lat:42.5993, lng:-5.5669, denom:"catolica", year:1302, note:"Pulchra Leonina. Mayor superficie de vidrieras góticas de Europa."},
-  {name:"Mezquita-Catedral", city:"Córdoba", country:"España", lat:37.8790, lng:-4.7794, denom:"catolica", year:1236, note:"Mezquita omeya convertida en catedral. Sincretismo arquitectónico único."},
-  {name:"Catedral de la Almudena", city:"Madrid", country:"España", lat:40.4154, lng:-3.7144, denom:"catolica", year:1993, note:"Sede madrileña. Consagrada por Juan Pablo II."},
-  {name:"Catedral de Palma", city:"Palma de Mallorca", country:"España", lat:39.5670, lng:2.6478, denom:"catolica", year:1601, note:"La Seu. Intervención de Gaudí en el interior."},
-  {name:"Catedral de Málaga", city:"Málaga", country:"España", lat:36.7213, lng:-4.4198, denom:"catolica", year:1782, note:"La Manquita: le falta una torre."},
-
-  // === ITALIA / VATICANO ===
-  {name:"Basílica de San Pedro", city:"Ciudad del Vaticano", country:"Vaticano", lat:41.9022, lng:12.4539, denom:"catolica", year:1626, note:"Centro del catolicismo mundial. Cúpula de Miguel Ángel."},
-  {name:"Duomo di Milano", city:"Milán", country:"Italia", lat:45.4642, lng:9.1918, denom:"catolica", year:1965, note:"Gótico tardío. 135 agujas. Construcción de casi seis siglos."},
-  {name:"Santa Maria del Fiore", city:"Florencia", country:"Italia", lat:43.7731, lng:11.2560, denom:"catolica", year:1436, note:"Cúpula de Brunelleschi. Emblema del Renacimiento."},
-  {name:"Basílica de San Marcos", city:"Venecia", country:"Italia", lat:45.4345, lng:12.3397, denom:"catolica", year:1094, note:"Bizantino-veneciana. Mosaicos dorados."},
-  {name:"Duomo di Siena", city:"Siena", country:"Italia", lat:43.3175, lng:11.3292, denom:"catolica", year:1348, note:"Gótico italiano. Suelo de mármol narrativo."},
-  {name:"San Juan de Letrán", city:"Roma", country:"Italia", lat:41.8858, lng:12.5053, denom:"catolica", year:324, note:"Archibasílica. Catedral del Papa como obispo de Roma."},
-  {name:"Catedral de Monreale", city:"Monreale", country:"Italia", lat:38.0814, lng:13.2925, denom:"catolica", year:1267, note:"Mosaicos normando-bizantinos. UNESCO."},
-  {name:"Duomo di Pisa", city:"Pisa", country:"Italia", lat:43.7231, lng:10.3947, denom:"catolica", year:1092, note:"Románico pisano. Junto a la Torre Inclinada."},
-
-  // === FRANCIA ===
-  {name:"Notre-Dame de Paris", city:"París", country:"Francia", lat:48.8530, lng:2.3499, denom:"catolica", year:1345, note:"Gótico temprano. Reabierta en diciembre 2024 tras el incendio de 2019."},
-  {name:"Notre-Dame de Chartres", city:"Chartres", country:"Francia", lat:48.4474, lng:1.4878, denom:"catolica", year:1260, note:"Vidrieras azules únicas. UNESCO."},
-  {name:"Notre-Dame de Reims", city:"Reims", country:"Francia", lat:49.2536, lng:4.0344, denom:"catolica", year:1275, note:"Coronación de reyes de Francia. Vidrieras de Chagall."},
-  {name:"Catedral de Amiens", city:"Amiens", country:"Francia", lat:49.8944, lng:2.3025, denom:"catolica", year:1270, note:"La mayor catedral gótica francesa por volumen interior."},
-  {name:"Catedral de Estrasburgo", city:"Estrasburgo", country:"Francia", lat:48.5818, lng:7.7508, denom:"catolica", year:1439, note:"Arenisca rosa. Reloj astronómico renacentista."},
-  {name:"Basílica del Sagrado Corazón", city:"París", country:"Francia", lat:48.8867, lng:2.3431, denom:"catolica", year:1914, note:"Sacré-Cœur. Cima de Montmartre."},
-  {name:"Catedral de Albi", city:"Albi", country:"Francia", lat:43.9280, lng:2.1428, denom:"catolica", year:1480, note:"Gótico meridional en ladrillo. Fortaleza tras la cruzada albigense."},
-
-  // === REINO UNIDO ===
-  {name:"Catedral de Canterbury", city:"Canterbury", country:"Reino Unido", lat:51.2798, lng:1.0830, denom:"anglicana", year:1077, note:"Sede primada de la Comunión Anglicana."},
-  {name:"Catedral de San Pablo", city:"Londres", country:"Reino Unido", lat:51.5138, lng:-0.0984, denom:"anglicana", year:1710, note:"Barroco inglés. Christopher Wren tras el Gran Incendio."},
-  {name:"Abadía de Westminster", city:"Londres", country:"Reino Unido", lat:51.4994, lng:-0.1276, denom:"anglicana", year:1090, note:"Coronaciones reales. Técnicamente 'Royal Peculiar', no catedral."},
-  {name:"Catedral de York", city:"York", country:"Reino Unido", lat:53.9620, lng:-1.0818, denom:"anglicana", year:1472, note:"York Minster. Mayor catedral gótica del norte europeo."},
-  {name:"Catedral de Durham", city:"Durham", country:"Reino Unido", lat:54.7734, lng:-1.5761, denom:"anglicana", year:1133, note:"Románico normando. UNESCO."},
-  {name:"Catedral de Salisbury", city:"Salisbury", country:"Reino Unido", lat:51.0648, lng:-1.7976, denom:"anglicana", year:1258, note:"Aguja más alta de Inglaterra. Custodia de la Carta Magna."},
-  {name:"Catedral de Liverpool", city:"Liverpool", country:"Reino Unido", lat:53.3975, lng:-2.9731, denom:"anglicana", year:1978, note:"La catedral anglicana más grande del mundo en superficie."},
-  {name:"Catedral Metropolitana de Liverpool", city:"Liverpool", country:"Reino Unido", lat:53.4050, lng:-2.9675, denom:"catolica", year:1967, note:"Modernista. Apodada 'Paddy's Wigwam'."},
-  {name:"Catedral de San Gil", city:"Edimburgo", country:"Reino Unido", lat:55.9498, lng:-3.1908, denom:"protestante", year:1385, note:"High Kirk. Centro del presbiterianismo escocés."},
-
-  // === ALEMANIA ===
-  {name:"Catedral de Colonia", city:"Colonia", country:"Alemania", lat:50.9413, lng:6.9583, denom:"catolica", year:1880, note:"Kölner Dom. Gótico. Construcción de 632 años."},
-  {name:"Frauenkirche de Múnich", city:"Múnich", country:"Alemania", lat:48.1386, lng:11.5733, denom:"catolica", year:1488, note:"Gótico tardío bávaro. Huella del diablo en el suelo."},
-  {name:"Catedral de Aquisgrán", city:"Aquisgrán", country:"Alemania", lat:50.7745, lng:6.0838, denom:"catolica", year:805, note:"Capilla palatina de Carlomagno. Primer bien UNESCO alemán."},
-  {name:"Frauenkirche de Dresde", city:"Dresde", country:"Alemania", lat:51.0517, lng:13.7414, denom:"protestante", year:1743, note:"Luterana. Reconstruida en 2005 tras los bombardeos de 1945."},
-  {name:"Catedral de Berlín", city:"Berlín", country:"Alemania", lat:52.5190, lng:13.4010, denom:"protestante", year:1905, note:"Berliner Dom. Principal iglesia protestante del país."},
-  {name:"Catedral de Ratisbona", city:"Ratisbona", country:"Alemania", lat:49.0194, lng:12.0972, denom:"catolica", year:1520, note:"Gótico bávaro. Los Regensburger Domspatzen."},
-
-  // === PAÍSES BAJOS / BÉLGICA ===
-  {name:"Nieuwe Kerk", city:"Delft", country:"Países Bajos", lat:52.0126, lng:4.3600, denom:"protestante", year:1496, note:"Mausoleo de la Casa de Orange-Nassau."},
-  {name:"Catedral de Utrecht", city:"Utrecht", country:"Países Bajos", lat:52.0908, lng:5.1219, denom:"protestante", year:1517, note:"Domkerk. Originalmente católica, protestante tras 1580."},
-  {name:"Catedral de Amberes", city:"Amberes", country:"Bélgica", lat:51.2211, lng:4.4000, denom:"catolica", year:1521, note:"Tres obras maestras de Rubens in situ."},
-  {name:"San Miguel y Santa Gúdula", city:"Bruselas", country:"Bélgica", lat:50.8479, lng:4.3601, denom:"catolica", year:1519, note:"Gótico brabanzón."},
-
-  // === PORTUGAL ===
-  {name:"Sé de Lisboa", city:"Lisboa", country:"Portugal", lat:38.7098, lng:-9.1332, denom:"catolica", year:1147, note:"Románica con añadidos góticos. Resistió el terremoto de 1755."},
-  {name:"Sé do Porto", city:"Oporto", country:"Portugal", lat:41.1429, lng:-8.6114, denom:"catolica", year:1737, note:"Románica fortificada sobre colina histórica."},
-  {name:"Monasterio de los Jerónimos", city:"Lisboa", country:"Portugal", lat:38.6979, lng:-9.2068, denom:"catolica", year:1601, note:"Manuelino. UNESCO. Tumba de Vasco da Gama."},
-
-  // === GRECIA / BIZANCIO / RUSIA ORTODOXA ===
-  {name:"Santa Sofía", city:"Estambul", country:"Turquía", lat:41.0086, lng:28.9802, denom:"historica", year:537, note:"Catedral bizantina → mezquita → museo → mezquita (2020). Obra maestra milenaria."},
-  {name:"Catedral de San Basilio", city:"Moscú", country:"Rusia", lat:55.7525, lng:37.6231, denom:"ortodoxa", year:1561, note:"Plaza Roja. Cúpulas multicolores inconfundibles."},
-  {name:"Catedral de Cristo Salvador", city:"Moscú", country:"Rusia", lat:55.7446, lng:37.6055, denom:"ortodoxa", year:2000, note:"Demolida por Stalin en 1931, reconstruida en los 90."},
-  {name:"Catedral de la Dormición", city:"Moscú", country:"Rusia", lat:55.7510, lng:37.6170, denom:"ortodoxa", year:1479, note:"Kremlin. Coronaciones de zares."},
-  {name:"Catedral de la Sangre Derramada", city:"San Petersburgo", country:"Rusia", lat:59.9400, lng:30.3289, denom:"ortodoxa", year:1907, note:"En el lugar del asesinato del zar Alejandro II."},
-  {name:"Catedral de San Isaac", city:"San Petersburgo", country:"Rusia", lat:59.9342, lng:30.3061, denom:"ortodoxa", year:1858, note:"Cúpula dorada. Neoclásico ruso."},
-  {name:"Catedral de Kazán", city:"San Petersburgo", country:"Rusia", lat:59.9342, lng:30.3250, denom:"ortodoxa", year:1811, note:"Columnata inspirada en San Pedro del Vaticano."},
-  {name:"Catedral de Santa Sofía", city:"Kiev", country:"Ucrania", lat:50.4528, lng:30.5144, denom:"ortodoxa", year:1037, note:"Mosaicos bizantinos del siglo XI. UNESCO."},
-  {name:"Monasterio de las Cuevas", city:"Kiev", country:"Ucrania", lat:50.4347, lng:30.5575, denom:"ortodoxa", year:1073, note:"Lavra de Pecherska. Cuna de la ortodoxia eslava."},
-  {name:"Catedral de Alejandro Nevski", city:"Sofía", country:"Bulgaria", lat:42.6959, lng:23.3327, denom:"ortodoxa", year:1912, note:"Una de las mayores catedrales ortodoxas del mundo."},
-  {name:"Catedral Metropolitana", city:"Atenas", country:"Grecia", lat:37.9751, lng:23.7300, denom:"ortodoxa", year:1862, note:"Sede del Arzobispo de Atenas."},
-  {name:"Monasterio de Rila", city:"Rila", country:"Bulgaria", lat:42.1333, lng:23.3400, denom:"ortodoxa", year:927, note:"UNESCO. Corazón espiritual búlgaro."},
-
-  // === EUROPA DEL ESTE / BALCANES ===
-  {name:"Catedral de San Vito", city:"Praga", country:"Chequia", lat:50.0909, lng:14.4004, denom:"catolica", year:1929, note:"Dentro del Castillo de Praga. Joyas de la corona checa."},
-  {name:"Basílica de Esztergom", city:"Esztergom", country:"Hungría", lat:47.7997, lng:18.7361, denom:"catolica", year:1869, note:"La iglesia más grande de Hungría."},
-  {name:"Catedral de San Esteban", city:"Viena", country:"Austria", lat:48.2084, lng:16.3731, denom:"catolica", year:1511, note:"Stephansdom. Tejado de cerámica con mosaico de águila bicéfala."},
-  {name:"Catedral de Wawel", city:"Cracovia", country:"Polonia", lat:50.0544, lng:19.9354, denom:"catolica", year:1364, note:"Coronación de reyes polacos. Tumbas nacionales."},
-  {name:"Basílica de Juan Pablo II", city:"Cracovia", country:"Polonia", lat:50.0181, lng:19.9719, denom:"catolica", year:2016, note:"Santuario de Divina Misericordia en Łagiewniki."},
-  {name:"Catedral de San Sava", city:"Belgrado", country:"Serbia", lat:44.7983, lng:20.4686, denom:"ortodoxa", year:2004, note:"Una de las iglesias ortodoxas más grandes del mundo."},
-  {name:"Catedral de San Dimitri", city:"Tesalónica", country:"Grecia", lat:40.6386, lng:22.9475, denom:"ortodoxa", year:629, note:"Patrono de la ciudad. UNESCO."},
-
-  // === ESCANDINAVIA / BÁLTICO ===
-  {name:"Catedral de Uppsala", city:"Uppsala", country:"Suecia", lat:59.8586, lng:17.6330, denom:"protestante", year:1435, note:"La iglesia más grande de Escandinavia. Sede luterana."},
-  {name:"Catedral de Estocolmo", city:"Estocolmo", country:"Suecia", lat:59.3251, lng:18.0707, denom:"protestante", year:1279, note:"Storkyrkan. Coronación de reyes suecos."},
-  {name:"Catedral de Roskilde", city:"Roskilde", country:"Dinamarca", lat:55.6424, lng:12.0816, denom:"protestante", year:1275, note:"Mausoleo real danés. UNESCO."},
-  {name:"Catedral de Nidaros", city:"Trondheim", country:"Noruega", lat:63.4267, lng:10.3967, denom:"protestante", year:1300, note:"La catedral gótica más septentrional. Coronación de reyes noruegos."},
-  {name:"Catedral de Helsinki", city:"Helsinki", country:"Finlandia", lat:60.1706, lng:24.9524, denom:"protestante", year:1852, note:"Neoclásica blanca. Icono de la ciudad."},
-  {name:"Catedral de Tampere", city:"Tampere", country:"Finlandia", lat:61.4979, lng:23.7611, denom:"protestante", year:1907, note:"Art Nouveau finlandés. Frescos de Simberg."},
-  {name:"Catedral de Reykjavik", city:"Reykjavik", country:"Islandia", lat:64.1466, lng:-21.9326, denom:"protestante", year:1796, note:"Dómkirkjan. Sede luterana de Islandia."},
-  {name:"Hallgrímskirkja", city:"Reykjavik", country:"Islandia", lat:64.1417, lng:-21.9266, denom:"protestante", year:1986, note:"Inspirada en las columnas basálticas islandesas."},
-
-  // === IRLANDA ===
-  {name:"Catedral de San Patricio", city:"Dublín", country:"Irlanda", lat:53.3393, lng:-6.2711, denom:"anglicana", year:1270, note:"La iglesia más grande de Irlanda. Swift fue deán aquí."},
-  {name:"Catedral Christ Church", city:"Dublín", country:"Irlanda", lat:53.3434, lng:-6.2711, denom:"anglicana", year:1240, note:"Cripta medieval más grande de Irlanda y Gran Bretaña."},
-
-  // === ORIENTE MEDIO / CRISTIANISMO ANTIGUO ===
-  {name:"Iglesia del Santo Sepulcro", city:"Jerusalén", country:"Israel/Palestina", lat:31.7784, lng:35.2296, denom:"historica", year:335, note:"Lugar tradicional de la crucifixión y resurrección. Seis confesiones cristianas comparten custodia."},
-  {name:"Basílica de la Natividad", city:"Belén", country:"Palestina", lat:31.7042, lng:35.2075, denom:"historica", year:339, note:"Sobre la gruta tradicional del nacimiento de Jesús. UNESCO."},
-  {name:"Catedral de San Jorge", city:"Jerusalén", country:"Israel", lat:31.7878, lng:35.2294, denom:"anglicana", year:1898, note:"Sede de la Diócesis Anglicana de Jerusalén."},
-  {name:"Catedral de San Marcos", city:"El Cairo", country:"Egipto", lat:30.0664, lng:31.2440, denom:"ortodoxa", year:1968, note:"Sede del Papa copto. Una de las mayores catedrales de África."},
-  {name:"Monasterio de Santa Catalina", city:"Sinaí", country:"Egipto", lat:28.5559, lng:33.9761, denom:"ortodoxa", year:565, note:"UNESCO. Uno de los monasterios cristianos más antiguos en uso."},
-  {name:"Catedral Maronita San Jorge", city:"Beirut", country:"Líbano", lat:33.8953, lng:35.5131, denom:"catolica", year:1894, note:"Sede de los maronitas en Beirut."},
-  {name:"Catedral de Echmiadzin", city:"Vagharshapat", country:"Armenia", lat:40.1619, lng:44.2914, denom:"ortodoxa", year:303, note:"Catedral cristiana más antigua del mundo. Sede de la Iglesia Apostólica Armenia."},
-  {name:"Svetitskhoveli", city:"Mtskheta", country:"Georgia", lat:41.8428, lng:44.7208, denom:"ortodoxa", year:1029, note:"Catedral georgiana patriarcal. UNESCO."},
-  {name:"Catedral Tsminda Sameba", city:"Tiflis", country:"Georgia", lat:41.6973, lng:44.8097, denom:"ortodoxa", year:2004, note:"Una de las mayores catedrales ortodoxas del mundo."},
-
-  // === ETIOPÍA / ÁFRICA ORIENTAL ===
-  {name:"Iglesias de Lalibela", city:"Lalibela", country:"Etiopía", lat:12.0314, lng:39.0472, denom:"ortodoxa", year:1200, note:"Once iglesias talladas monolíticamente en la roca. UNESCO."},
-  {name:"Catedral de la Santísima Trinidad", city:"Adís Abeba", country:"Etiopía", lat:9.0353, lng:38.7648, denom:"ortodoxa", year:1944, note:"Sede ortodoxa etíope. Tumba de Haile Selassie."},
-  {name:"Catedral de San Jorge", city:"Adís Abeba", country:"Etiopía", lat:9.0372, lng:38.7528, denom:"ortodoxa", year:1911, note:"Coronación de Haile Selassie en 1930."},
-
-  // === ÁFRICA ===
-  {name:"Basílica de Notre-Dame de la Paix", city:"Yamoussoukro", country:"Costa de Marfil", lat:6.8125, lng:-5.2975, denom:"catolica", year:1989, note:"La iglesia cristiana más grande del mundo por superficie. Inspirada en San Pedro."},
-  {name:"Catedral de San Jorge", city:"Ciudad del Cabo", country:"Sudáfrica", lat:-33.9253, lng:18.4236, denom:"anglicana", year:1901, note:"Sede de Desmond Tutu durante el apartheid."},
-  {name:"Catedral Sagrada Familia", city:"Nairobi", country:"Kenia", lat:-1.2856, lng:36.8189, denom:"catolica", year:1963, note:"Sede metropolitana de Nairobi."},
-  {name:"Catedral de San Pablo", city:"Abiyán", country:"Costa de Marfil", lat:5.3217, lng:-4.0231, denom:"catolica", year:1985, note:"Arquitectura modernista con velas de hormigón."},
-  {name:"Catedral de Luanda", city:"Luanda", country:"Angola", lat:-8.8147, lng:13.2302, denom:"catolica", year:1628, note:"Una de las catedrales más antiguas del África subsahariana."},
-  {name:"Catedral de San José", city:"Dar es Salaam", country:"Tanzania", lat:-6.8194, lng:39.2911, denom:"catolica", year:1902, note:"Neogótica. Legado misionero alemán."},
-
-  // === AMÉRICA DEL NORTE: EE.UU. ===
-  {name:"Catedral de San Patricio", city:"Nueva York", country:"EE.UU.", lat:40.7585, lng:-73.9759, denom:"catolica", year:1879, note:"Neogótica. Quinta Avenida."},
-  {name:"Catedral de San Juan el Divino", city:"Nueva York", country:"EE.UU.", lat:40.8038, lng:-73.9619, denom:"anglicana", year:1941, note:"Episcopal. Catedral inacabada más grande del mundo."},
-  {name:"Catedral Nacional", city:"Washington D.C.", country:"EE.UU.", lat:38.9305, lng:-77.0708, denom:"anglicana", year:1990, note:"Episcopal. Funerales de estado. Piedra lunar en vidriera."},
-  {name:"Basílica Inmaculada Concepción", city:"Washington D.C.", country:"EE.UU.", lat:38.9331, lng:-77.0011, denom:"catolica", year:1959, note:"La iglesia católica más grande de Norteamérica."},
-  {name:"Catedral de Cristo Rey", city:"Los Ángeles", country:"EE.UU.", lat:34.0586, lng:-118.2467, denom:"catolica", year:2002, note:"Nuestra Señora de los Ángeles. Diseño de Rafael Moneo."},
-  {name:"Templo de Salt Lake", city:"Salt Lake City", country:"EE.UU.", lat:40.7705, lng:-111.8910, denom:"historica", year:1893, note:"Templo mormón (SUD). Referencia cristiana restauracionista."},
-  {name:"Catedral de la Santa Cruz", city:"Boston", country:"EE.UU.", lat:42.3397, lng:-71.0714, denom:"catolica", year:1875, note:"Sede de la Arquidiócesis de Boston."},
-  {name:"Catedral Basílica San Luis", city:"San Luis", country:"EE.UU.", lat:38.6372, lng:-90.2597, denom:"catolica", year:1914, note:"La mayor colección de mosaicos del hemisferio occidental."},
-  {name:"Grace Cathedral", city:"San Francisco", country:"EE.UU.", lat:37.7924, lng:-122.4131, denom:"anglicana", year:1964, note:"Episcopal. Puertas del Paraíso replicadas de Ghiberti."},
-
-  // === AMÉRICA DEL NORTE: MÉXICO ===
-  {name:"Catedral Metropolitana de México", city:"Ciudad de México", country:"México", lat:19.4347, lng:-99.1331, denom:"catolica", year:1813, note:"La catedral más antigua y grande de América. Sobre el Templo Mayor azteca."},
-  {name:"Basílica de Guadalupe", city:"Ciudad de México", country:"México", lat:19.4847, lng:-99.1172, denom:"catolica", year:1976, note:"Santuario mariano más visitado del mundo. Ayate de Juan Diego."},
-  {name:"Catedral de Puebla", city:"Puebla", country:"México", lat:19.0419, lng:-98.1981, denom:"catolica", year:1690, note:"Barroco novohispano. Segunda iglesia más alta de México."},
-  {name:"Catedral de Morelia", city:"Morelia", country:"México", lat:19.7025, lng:-101.1925, denom:"catolica", year:1744, note:"Barroco mexicano en cantera rosa."},
-
-  // === AMÉRICA CENTRAL / CARIBE ===
-  {name:"Catedral Primada de América", city:"Santo Domingo", country:"Rep. Dominicana", lat:18.4733, lng:-69.8842, denom:"catolica", year:1540, note:"La catedral más antigua del Nuevo Mundo."},
-  {name:"Catedral de La Habana", city:"La Habana", country:"Cuba", lat:23.1411, lng:-82.3533, denom:"catolica", year:1777, note:"Barroco cubano en piedra caliza coralina."},
-  {name:"Catedral de Guatemala", city:"Ciudad de Guatemala", country:"Guatemala", lat:14.6417, lng:-90.5125, denom:"catolica", year:1815, note:"Memorial de víctimas del conflicto armado interno."},
-
-  // === AMÉRICA DEL SUR ===
-  {name:"Catedral Metropolitana", city:"Río de Janeiro", country:"Brasil", lat:-22.9100, lng:-43.1806, denom:"catolica", year:1979, note:"Cono modernista. Vidrieras monumentales de 64 metros."},
-  {name:"Catedral de São Paulo", city:"São Paulo", country:"Brasil", lat:-23.5506, lng:-46.6339, denom:"catolica", year:1954, note:"Sé. Mayor iglesia neogótica de Brasil."},
-  {name:"Santuario de Aparecida", city:"Aparecida", country:"Brasil", lat:-22.8478, lng:-45.2303, denom:"catolica", year:1980, note:"Segunda basílica católica más grande del mundo."},
-  {name:"Catedral Metropolitana", city:"Brasilia", country:"Brasil", lat:-15.7985, lng:-47.8758, denom:"catolica", year:1970, note:"Diseño de Oscar Niemeyer. Hiperboloide de 16 columnas."},
-  {name:"Catedral Metropolitana", city:"Buenos Aires", country:"Argentina", lat:-34.6083, lng:-58.3728, denom:"catolica", year:1827, note:"Neoclásica. Donde el papa Francisco fue arzobispo."},
-  {name:"Basílica de Luján", city:"Luján", country:"Argentina", lat:-34.5703, lng:-59.1056, denom:"catolica", year:1935, note:"Patrona de Argentina. Neogótico en mármol."},
-  {name:"Catedral de Santiago", city:"Santiago", country:"Chile", lat:-33.4378, lng:-70.6506, denom:"catolica", year:1800, note:"Plaza de Armas. Neoclásica."},
-  {name:"Catedral de Lima", city:"Lima", country:"Perú", lat:-12.0466, lng:-77.0300, denom:"catolica", year:1649, note:"Sepulcro de Francisco Pizarro."},
-  {name:"Catedral de Cusco", city:"Cusco", country:"Perú", lat:-13.5167, lng:-71.9786, denom:"catolica", year:1654, note:"Sobre el palacio inca de Viracocha. Sincretismo andino."},
-  {name:"Catedral Primada", city:"Bogotá", country:"Colombia", lat:4.5981, lng:-74.0756, denom:"catolica", year:1823, note:"Plaza de Bolívar. Neoclásica."},
-  {name:"Santuario de las Lajas", city:"Ipiales", country:"Colombia", lat:0.8048, lng:-77.5856, denom:"catolica", year:1949, note:"Neogótico suspendido sobre cañón. Peregrinación andina."},
-  {name:"Catedral de Quito", city:"Quito", country:"Ecuador", lat:-0.2206, lng:-78.5122, denom:"catolica", year:1806, note:"Centro histórico UNESCO."},
-  {name:"Basílica del Voto Nacional", city:"Quito", country:"Ecuador", lat:-0.2147, lng:-78.5078, denom:"catolica", year:1988, note:"Neogótica con gárgolas de fauna galapagueña."},
-
-  // === ASIA ===
-  {name:"Basílica del Santo Niño", city:"Cebú", country:"Filipinas", lat:10.2944, lng:123.9019, denom:"catolica", year:1739, note:"La iglesia cristiana más antigua de Filipinas."},
-  {name:"Catedral de Manila", city:"Manila", country:"Filipinas", lat:14.5917, lng:120.9736, denom:"catolica", year:1958, note:"Sede primada. Reconstruida ocho veces desde 1581."},
-  {name:"Catedral de San José", city:"Hanói", country:"Vietnam", lat:21.0286, lng:105.8489, denom:"catolica", year:1886, note:"Neogótica colonial francesa."},
-  {name:"Catedral de Notre-Dame", city:"Ho Chi Minh", country:"Vietnam", lat:10.7798, lng:106.6991, denom:"catolica", year:1880, note:"Ladrillos importados de Toulouse. Colonial francesa."},
-  {name:"Catedral de San Pablo", city:"Macao", country:"China (Macao)", lat:22.1975, lng:113.5414, denom:"historica", year:1640, note:"Ruinas icónicas. Jesuita. Fachada única superviviente del incendio de 1835."},
-  {name:"Catedral de Xishiku", city:"Pekín", country:"China", lat:39.9256, lng:116.3783, denom:"catolica", year:1888, note:"Beitang. Resistió el asedio bóxer de 1900."},
-  {name:"Catedral de San Ignacio", city:"Shanghái", country:"China", lat:31.1928, lng:121.4267, denom:"catolica", year:1910, note:"Xujiahui. Neogótica. Mayor catedral católica china."},
-  {name:"Catedral de Tokio", city:"Tokio", country:"Japón", lat:35.7206, lng:139.7269, denom:"catolica", year:1964, note:"Santa María. Diseño de Kenzō Tange en hiperboloide."},
-  {name:"Catedral Nikolai-do", city:"Tokio", country:"Japón", lat:35.6989, lng:139.7661, denom:"ortodoxa", year:1891, note:"Catedral de la Resurrección. Sede ortodoxa japonesa."},
-  {name:"Catedral de Oura", city:"Nagasaki", country:"Japón", lat:32.7367, lng:129.8692, denom:"catolica", year:1864, note:"La iglesia cristiana más antigua de Japón. UNESCO."},
-  {name:"Catedral de Myeongdong", city:"Seúl", country:"Corea del Sur", lat:37.5634, lng:126.9873, denom:"catolica", year:1898, note:"Sede católica coreana. Refugio durante la dictadura militar."},
-  {name:"Basílica del Buen Pastor", city:"Singapur", country:"Singapur", lat:1.2944, lng:103.8508, denom:"catolica", year:1847, note:"La iglesia católica más antigua de Singapur."},
-  {name:"Catedral de San Andrés", city:"Singapur", country:"Singapur", lat:1.2928, lng:103.8514, denom:"anglicana", year:1862, note:"Neogótica colonial británica."},
-  {name:"Catedral Armenia", city:"Calcuta", country:"India", lat:22.5728, lng:88.3556, denom:"ortodoxa", year:1724, note:"La iglesia cristiana más antigua de Calcuta."},
-  {name:"Basílica del Buen Jesús", city:"Goa", country:"India", lat:15.5007, lng:73.9114, denom:"catolica", year:1605, note:"UNESCO. Cuerpo incorrupto de San Francisco Javier."},
-  {name:"Catedral de San Jorge", city:"Chennai", country:"India", lat:13.0622, lng:80.2456, denom:"anglicana", year:1815, note:"Diócesis anglicana más antigua de la India."},
-
-  // === OCEANÍA ===
-  {name:"Catedral de Santa María", city:"Sídney", country:"Australia", lat:-33.8716, lng:151.2132, denom:"catolica", year:1928, note:"Neogótica. La iglesia más grande de Australia."},
-  {name:"Catedral de San Patricio", city:"Melbourne", country:"Australia", lat:-37.8103, lng:144.9764, denom:"catolica", year:1939, note:"Neogótica en piedra arenisca."},
-  {name:"Catedral Anglicana", city:"Wellington", country:"Nueva Zelanda", lat:-41.2776, lng:174.7810, denom:"anglicana", year:1998, note:"San Pablo. Arquitectura modernista."},
-  {name:"Catedral de Christchurch", city:"Christchurch", country:"Nueva Zelanda", lat:-43.5308, lng:172.6358, denom:"anglicana", year:1904, note:"Dañada por el terremoto de 2011. En restauración."},
-
-  // === CANADÁ ===
-  {name:"Basílica de Notre-Dame", city:"Montreal", country:"Canadá", lat:45.5045, lng:-73.5564, denom:"catolica", year:1829, note:"Neogótica. Interior policromado espectacular."},
-  {name:"Oratorio de San José", city:"Montreal", country:"Canadá", lat:45.4919, lng:-73.6175, denom:"catolica", year:1967, note:"La iglesia más alta de Canadá. Basílica menor."},
-  {name:"Basílica-Catedral de Quebec", city:"Ciudad de Quebec", country:"Canadá", lat:46.8139, lng:-71.2058, denom:"catolica", year:1650, note:"La catedral católica más antigua al norte de México."},
-  {name:"Iglesia Católica de Toronto", city:"Toronto", country:"Canadá", lat:43.6548, lng:-79.3761, denom:"catolica", year:1848, note:"Catedral de San Miguel. Neogótica."}
-];
+const DATA = await loadData();
 
 // === DENOMINACIONES ===
 const DENOMS = {
-  catolica:    { label: "Católica",    color: "#c9a227" },
+  catolica:    { label: "CatÃ³lica",    color: "#c9a227" },
   ortodoxa:    { label: "Ortodoxa",    color: "#9b3a1f" },
   anglicana:   { label: "Anglicana",   color: "#4a6b8a" },
   protestante: { label: "Protestante", color: "#5d7a4a" },
-  historica:   { label: "Histórica",   color: "#8a7b6b" }
+  historica:   { label: "HistÃ³rica",   color: "#8a7b6b" }
 };
 
 // === STATE ===
@@ -814,7 +631,7 @@ const map = L.map('map', {
 
 // Dark tile layer
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '© OpenStreetMap · © CARTO · Forja Nova',
+  attribution: 'Â© OpenStreetMap Â· Â© CARTO Â· Forja Nova',
   subdomains: 'abcd',
   maxZoom: 19
 }).addTo(map);
@@ -833,14 +650,25 @@ function createMarkerIcon(d) {
   });
 }
 
-DATA.forEach((d, idx) => {
-  d._id = idx;
-  const icon = createMarkerIcon(d);
-  const marker = L.marker([d.lat, d.lng], { icon });
-  marker.bindPopup(buildPopup(d), { maxWidth: 320, closeButton: true });
-  marker._data = d;
-  markers.push(marker);
-});
+async function buildMarkersInBatches() {
+  const batchSize = 250;
+  for (let start = 0; start < DATA.length; start += batchSize) {
+    const end = Math.min(start + batchSize, DATA.length);
+    for (let idx = start; idx < end; idx++) {
+      const d = DATA[idx];
+      d._id = idx;
+      const icon = createMarkerIcon(d);
+      const marker = L.marker([d.lat, d.lng], { icon });
+      marker.bindPopup(buildPopup(d), { maxWidth: 320, closeButton: true });
+      marker._data = d;
+      markers.push(marker);
+    }
+    // Yield to the browser between batches to keep UI responsive with large datasets.
+    if (end < DATA.length) await new Promise(resolve => setTimeout(resolve, 0));
+  }
+}
+
+await buildMarkersInBatches();
 
 function buildPopup(d) {
   const denom = DENOMS[d.denom];
@@ -849,16 +677,16 @@ function buildPopup(d) {
     <div class="popup-denom-bar" style="background:${denom.color}"></div>
     <div class="popup-inner">
       <div class="popup-name">${d.name}</div>
-      <div class="popup-loc">${d.city} · ${d.country}</div>
+      <div class="popup-loc">${d.city} Â· ${d.country}</div>
       <dl class="popup-meta">
         <dt>Rito</dt><dd>${denom.label}</dd>
-        ${d.year ? `<dt>Consagración</dt><dd>${d.year}</dd>` : ''}
+        ${d.year ? `<dt>ConsagraciÃ³n</dt><dd>${d.year}</dd>` : ''}
       </dl>
       ${d.note ? `<div class="popup-note">${d.note}</div>` : ''}
       <div class="popup-actions">
         <button class="visit-btn ${visited ? 'visited' : ''}" data-visit-id="${d._id}">${visited ? '&#10003; Visitada' : 'Marcar visitada'}</button>
       </div>
-      <a class="popup-link" href="https://www.google.com/maps/search/?api=1&query=${d.lat},${d.lng}" target="_blank" rel="noopener">→ ver en mapa</a>
+      <a class="popup-link" href="https://www.google.com/maps/search/?api=1&query=${d.lat},${d.lng}" target="_blank" rel="noopener">â†’ ver en mapa</a>
     </div>
   `;
 }
@@ -988,7 +816,7 @@ function render() {
       <div class="list-item-name">${d.name}${isVisited(d._id) ? '<span class="list-item-check">&#10003;</span>' : ''}</div>
       <div class="list-item-meta">
         <span class="denom-dot" style="background:${denom.color}"></span>
-        <span>${d.city} · ${d.country}</span>
+        <span>${d.city} Â· ${d.country}</span>
       </div>
     `;
     item.addEventListener('click', () => {
@@ -1036,7 +864,7 @@ listEl.addEventListener('click', (e) => {
 });
 }; // end __initMazo
 
-// Auto-init cuando Leaflet esté disponible (carga normal desde cdnjs)
+// Auto-init cuando Leaflet estÃ© disponible (carga normal desde cdnjs)
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     if (typeof L !== 'undefined') window.__initMazo();
@@ -1047,3 +875,4 @@ if (document.readyState === 'loading') {
 </script>
 </body>
 </html>
+

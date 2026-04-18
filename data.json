@@ -1,0 +1,1602 @@
+﻿[
+    {
+        "name":  "Catedral de Santa MarÃ­a de la Sede",
+        "city":  "Sevilla",
+        "country":  "EspaÃ±a",
+        "lat":  37.3858,
+        "lng":  -5.9933,
+        "denom":  "catolica",
+        "year":  1528,
+        "note":  "La catedral gÃ³tica mÃ¡s grande del mundo. Sepulcro de CristÃ³bal ColÃ³n."
+    },
+    {
+        "name":  "Catedral de Santa MarÃ­a",
+        "city":  "Burgos",
+        "country":  "EspaÃ±a",
+        "lat":  42.3406,
+        "lng":  -3.7044,
+        "denom":  "catolica",
+        "year":  1260,
+        "note":  "Patrimonio UNESCO. GÃ³tico castellano puro."
+    },
+    {
+        "name":  "Catedral de Toledo",
+        "city":  "Toledo",
+        "country":  "EspaÃ±a",
+        "lat":  39.8570,
+        "lng":  -4.0240,
+        "denom":  "catolica",
+        "year":  1493,
+        "note":  "Sede primada de EspaÃ±a."
+    },
+    {
+        "name":  "Sagrada FamÃ­lia",
+        "city":  "Barcelona",
+        "country":  "EspaÃ±a",
+        "lat":  41.4036,
+        "lng":  2.1744,
+        "denom":  "catolica",
+        "year":  2026,
+        "note":  "BasÃ­lica de GaudÃ­. CulminaciÃ³n prevista tras 144 aÃ±os de obras."
+    },
+    {
+        "name":  "Catedral de Santiago de Compostela",
+        "city":  "Santiago",
+        "country":  "EspaÃ±a",
+        "lat":  42.8806,
+        "lng":  -8.5447,
+        "denom":  "catolica",
+        "year":  1211,
+        "note":  "Meta del Camino. Sepulcro del apÃ³stol Santiago."
+    },
+    {
+        "name":  "Catedral de LeÃ³n",
+        "city":  "LeÃ³n",
+        "country":  "EspaÃ±a",
+        "lat":  42.5993,
+        "lng":  -5.5669,
+        "denom":  "catolica",
+        "year":  1302,
+        "note":  "Pulchra Leonina. Mayor superficie de vidrieras gÃ³ticas de Europa."
+    },
+    {
+        "name":  "Mezquita-Catedral",
+        "city":  "CÃ³rdoba",
+        "country":  "EspaÃ±a",
+        "lat":  37.8790,
+        "lng":  -4.7794,
+        "denom":  "catolica",
+        "year":  1236,
+        "note":  "Mezquita omeya convertida en catedral. Sincretismo arquitectÃ³nico Ãºnico."
+    },
+    {
+        "name":  "Catedral de la Almudena",
+        "city":  "Madrid",
+        "country":  "EspaÃ±a",
+        "lat":  40.4154,
+        "lng":  -3.7144,
+        "denom":  "catolica",
+        "year":  1993,
+        "note":  "Sede madrileÃ±a. Consagrada por Juan Pablo II."
+    },
+    {
+        "name":  "Catedral de Palma",
+        "city":  "Palma de Mallorca",
+        "country":  "EspaÃ±a",
+        "lat":  39.5670,
+        "lng":  2.6478,
+        "denom":  "catolica",
+        "year":  1601,
+        "note":  "La Seu. IntervenciÃ³n de GaudÃ­ en el interior."
+    },
+    {
+        "name":  "Catedral de MÃ¡laga",
+        "city":  "MÃ¡laga",
+        "country":  "EspaÃ±a",
+        "lat":  36.7213,
+        "lng":  -4.4198,
+        "denom":  "catolica",
+        "year":  1782,
+        "note":  "La Manquita: le falta una torre."
+    },
+    {
+        "name":  "BasÃ­lica de San Pedro",
+        "city":  "Ciudad del Vaticano",
+        "country":  "Vaticano",
+        "lat":  41.9022,
+        "lng":  12.4539,
+        "denom":  "catolica",
+        "year":  1626,
+        "note":  "Centro del catolicismo mundial. CÃºpula de Miguel Ãngel."
+    },
+    {
+        "name":  "Duomo di Milano",
+        "city":  "MilÃ¡n",
+        "country":  "Italia",
+        "lat":  45.4642,
+        "lng":  9.1918,
+        "denom":  "catolica",
+        "year":  1965,
+        "note":  "GÃ³tico tardÃ­o. 135 agujas. ConstrucciÃ³n de casi seis siglos."
+    },
+    {
+        "name":  "Santa Maria del Fiore",
+        "city":  "Florencia",
+        "country":  "Italia",
+        "lat":  43.7731,
+        "lng":  11.2560,
+        "denom":  "catolica",
+        "year":  1436,
+        "note":  "CÃºpula de Brunelleschi. Emblema del Renacimiento."
+    },
+    {
+        "name":  "BasÃ­lica de San Marcos",
+        "city":  "Venecia",
+        "country":  "Italia",
+        "lat":  45.4345,
+        "lng":  12.3397,
+        "denom":  "catolica",
+        "year":  1094,
+        "note":  "Bizantino-veneciana. Mosaicos dorados."
+    },
+    {
+        "name":  "Duomo di Siena",
+        "city":  "Siena",
+        "country":  "Italia",
+        "lat":  43.3175,
+        "lng":  11.3292,
+        "denom":  "catolica",
+        "year":  1348,
+        "note":  "GÃ³tico italiano. Suelo de mÃ¡rmol narrativo."
+    },
+    {
+        "name":  "San Juan de LetrÃ¡n",
+        "city":  "Roma",
+        "country":  "Italia",
+        "lat":  41.8858,
+        "lng":  12.5053,
+        "denom":  "catolica",
+        "year":  324,
+        "note":  "ArchibasÃ­lica. Catedral del Papa como obispo de Roma."
+    },
+    {
+        "name":  "Catedral de Monreale",
+        "city":  "Monreale",
+        "country":  "Italia",
+        "lat":  38.0814,
+        "lng":  13.2925,
+        "denom":  "catolica",
+        "year":  1267,
+        "note":  "Mosaicos normando-bizantinos. UNESCO."
+    },
+    {
+        "name":  "Duomo di Pisa",
+        "city":  "Pisa",
+        "country":  "Italia",
+        "lat":  43.7231,
+        "lng":  10.3947,
+        "denom":  "catolica",
+        "year":  1092,
+        "note":  "RomÃ¡nico pisano. Junto a la Torre Inclinada."
+    },
+    {
+        "name":  "Notre-Dame de Paris",
+        "city":  "ParÃ­s",
+        "country":  "Francia",
+        "lat":  48.8530,
+        "lng":  2.3499,
+        "denom":  "catolica",
+        "year":  1345,
+        "note":  "GÃ³tico temprano. Reabierta en diciembre 2024 tras el incendio de 2019."
+    },
+    {
+        "name":  "Notre-Dame de Chartres",
+        "city":  "Chartres",
+        "country":  "Francia",
+        "lat":  48.4474,
+        "lng":  1.4878,
+        "denom":  "catolica",
+        "year":  1260,
+        "note":  "Vidrieras azules Ãºnicas. UNESCO."
+    },
+    {
+        "name":  "Notre-Dame de Reims",
+        "city":  "Reims",
+        "country":  "Francia",
+        "lat":  49.2536,
+        "lng":  4.0344,
+        "denom":  "catolica",
+        "year":  1275,
+        "note":  "CoronaciÃ³n de reyes de Francia. Vidrieras de Chagall."
+    },
+    {
+        "name":  "Catedral de Amiens",
+        "city":  "Amiens",
+        "country":  "Francia",
+        "lat":  49.8944,
+        "lng":  2.3025,
+        "denom":  "catolica",
+        "year":  1270,
+        "note":  "La mayor catedral gÃ³tica francesa por volumen interior."
+    },
+    {
+        "name":  "Catedral de Estrasburgo",
+        "city":  "Estrasburgo",
+        "country":  "Francia",
+        "lat":  48.5818,
+        "lng":  7.7508,
+        "denom":  "catolica",
+        "year":  1439,
+        "note":  "Arenisca rosa. Reloj astronÃ³mico renacentista."
+    },
+    {
+        "name":  "BasÃ­lica del Sagrado CorazÃ³n",
+        "city":  "ParÃ­s",
+        "country":  "Francia",
+        "lat":  48.8867,
+        "lng":  2.3431,
+        "denom":  "catolica",
+        "year":  1914,
+        "note":  "SacrÃ©-CÅ“ur. Cima de Montmartre."
+    },
+    {
+        "name":  "Catedral de Albi",
+        "city":  "Albi",
+        "country":  "Francia",
+        "lat":  43.9280,
+        "lng":  2.1428,
+        "denom":  "catolica",
+        "year":  1480,
+        "note":  "GÃ³tico meridional en ladrillo. Fortaleza tras la cruzada albigense."
+    },
+    {
+        "name":  "Catedral de Canterbury",
+        "city":  "Canterbury",
+        "country":  "Reino Unido",
+        "lat":  51.2798,
+        "lng":  1.0830,
+        "denom":  "anglicana",
+        "year":  1077,
+        "note":  "Sede primada de la ComuniÃ³n Anglicana."
+    },
+    {
+        "name":  "Catedral de San Pablo",
+        "city":  "Londres",
+        "country":  "Reino Unido",
+        "lat":  51.5138,
+        "lng":  -0.0984,
+        "denom":  "anglicana",
+        "year":  1710,
+        "note":  "Barroco inglÃ©s. Christopher Wren tras el Gran Incendio."
+    },
+    {
+        "name":  "AbadÃ­a de Westminster",
+        "city":  "Londres",
+        "country":  "Reino Unido",
+        "lat":  51.4994,
+        "lng":  -0.1276,
+        "denom":  "anglicana",
+        "year":  1090,
+        "note":  "Coronaciones reales. TÃ©cnicamente \u0027Royal Peculiar\u0027, no catedral."
+    },
+    {
+        "name":  "Catedral de York",
+        "city":  "York",
+        "country":  "Reino Unido",
+        "lat":  53.9620,
+        "lng":  -1.0818,
+        "denom":  "anglicana",
+        "year":  1472,
+        "note":  "York Minster. Mayor catedral gÃ³tica del norte europeo."
+    },
+    {
+        "name":  "Catedral de Durham",
+        "city":  "Durham",
+        "country":  "Reino Unido",
+        "lat":  54.7734,
+        "lng":  -1.5761,
+        "denom":  "anglicana",
+        "year":  1133,
+        "note":  "RomÃ¡nico normando. UNESCO."
+    },
+    {
+        "name":  "Catedral de Salisbury",
+        "city":  "Salisbury",
+        "country":  "Reino Unido",
+        "lat":  51.0648,
+        "lng":  -1.7976,
+        "denom":  "anglicana",
+        "year":  1258,
+        "note":  "Aguja mÃ¡s alta de Inglaterra. Custodia de la Carta Magna."
+    },
+    {
+        "name":  "Catedral de Liverpool",
+        "city":  "Liverpool",
+        "country":  "Reino Unido",
+        "lat":  53.3975,
+        "lng":  -2.9731,
+        "denom":  "anglicana",
+        "year":  1978,
+        "note":  "La catedral anglicana mÃ¡s grande del mundo en superficie."
+    },
+    {
+        "name":  "Catedral Metropolitana de Liverpool",
+        "city":  "Liverpool",
+        "country":  "Reino Unido",
+        "lat":  53.4050,
+        "lng":  -2.9675,
+        "denom":  "catolica",
+        "year":  1967,
+        "note":  "Modernista. Apodada \u0027Paddy\u0027s Wigwam\u0027."
+    },
+    {
+        "name":  "Catedral de San Gil",
+        "city":  "Edimburgo",
+        "country":  "Reino Unido",
+        "lat":  55.9498,
+        "lng":  -3.1908,
+        "denom":  "protestante",
+        "year":  1385,
+        "note":  "High Kirk. Centro del presbiterianismo escocÃ©s."
+    },
+    {
+        "name":  "Catedral de Colonia",
+        "city":  "Colonia",
+        "country":  "Alemania",
+        "lat":  50.9413,
+        "lng":  6.9583,
+        "denom":  "catolica",
+        "year":  1880,
+        "note":  "KÃ¶lner Dom. GÃ³tico. ConstrucciÃ³n de 632 aÃ±os."
+    },
+    {
+        "name":  "Frauenkirche de MÃºnich",
+        "city":  "MÃºnich",
+        "country":  "Alemania",
+        "lat":  48.1386,
+        "lng":  11.5733,
+        "denom":  "catolica",
+        "year":  1488,
+        "note":  "GÃ³tico tardÃ­o bÃ¡varo. Huella del diablo en el suelo."
+    },
+    {
+        "name":  "Catedral de AquisgrÃ¡n",
+        "city":  "AquisgrÃ¡n",
+        "country":  "Alemania",
+        "lat":  50.7745,
+        "lng":  6.0838,
+        "denom":  "catolica",
+        "year":  805,
+        "note":  "Capilla palatina de Carlomagno. Primer bien UNESCO alemÃ¡n."
+    },
+    {
+        "name":  "Frauenkirche de Dresde",
+        "city":  "Dresde",
+        "country":  "Alemania",
+        "lat":  51.0517,
+        "lng":  13.7414,
+        "denom":  "protestante",
+        "year":  1743,
+        "note":  "Luterana. Reconstruida en 2005 tras los bombardeos de 1945."
+    },
+    {
+        "name":  "Catedral de BerlÃ­n",
+        "city":  "BerlÃ­n",
+        "country":  "Alemania",
+        "lat":  52.5190,
+        "lng":  13.4010,
+        "denom":  "protestante",
+        "year":  1905,
+        "note":  "Berliner Dom. Principal iglesia protestante del paÃ­s."
+    },
+    {
+        "name":  "Catedral de Ratisbona",
+        "city":  "Ratisbona",
+        "country":  "Alemania",
+        "lat":  49.0194,
+        "lng":  12.0972,
+        "denom":  "catolica",
+        "year":  1520,
+        "note":  "GÃ³tico bÃ¡varo. Los Regensburger Domspatzen."
+    },
+    {
+        "name":  "Nieuwe Kerk",
+        "city":  "Delft",
+        "country":  "PaÃ­ses Bajos",
+        "lat":  52.0126,
+        "lng":  4.3600,
+        "denom":  "protestante",
+        "year":  1496,
+        "note":  "Mausoleo de la Casa de Orange-Nassau."
+    },
+    {
+        "name":  "Catedral de Utrecht",
+        "city":  "Utrecht",
+        "country":  "PaÃ­ses Bajos",
+        "lat":  52.0908,
+        "lng":  5.1219,
+        "denom":  "protestante",
+        "year":  1517,
+        "note":  "Domkerk. Originalmente catÃ³lica, protestante tras 1580."
+    },
+    {
+        "name":  "Catedral de Amberes",
+        "city":  "Amberes",
+        "country":  "BÃ©lgica",
+        "lat":  51.2211,
+        "lng":  4.4000,
+        "denom":  "catolica",
+        "year":  1521,
+        "note":  "Tres obras maestras de Rubens in situ."
+    },
+    {
+        "name":  "San Miguel y Santa GÃºdula",
+        "city":  "Bruselas",
+        "country":  "BÃ©lgica",
+        "lat":  50.8479,
+        "lng":  4.3601,
+        "denom":  "catolica",
+        "year":  1519,
+        "note":  "GÃ³tico brabanzÃ³n."
+    },
+    {
+        "name":  "SÃ© de Lisboa",
+        "city":  "Lisboa",
+        "country":  "Portugal",
+        "lat":  38.7098,
+        "lng":  -9.1332,
+        "denom":  "catolica",
+        "year":  1147,
+        "note":  "RomÃ¡nica con aÃ±adidos gÃ³ticos. ResistiÃ³ el terremoto de 1755."
+    },
+    {
+        "name":  "SÃ© do Porto",
+        "city":  "Oporto",
+        "country":  "Portugal",
+        "lat":  41.1429,
+        "lng":  -8.6114,
+        "denom":  "catolica",
+        "year":  1737,
+        "note":  "RomÃ¡nica fortificada sobre colina histÃ³rica."
+    },
+    {
+        "name":  "Monasterio de los JerÃ³nimos",
+        "city":  "Lisboa",
+        "country":  "Portugal",
+        "lat":  38.6979,
+        "lng":  -9.2068,
+        "denom":  "catolica",
+        "year":  1601,
+        "note":  "Manuelino. UNESCO. Tumba de Vasco da Gama."
+    },
+    {
+        "name":  "Santa SofÃ­a",
+        "city":  "Estambul",
+        "country":  "TurquÃ­a",
+        "lat":  41.0086,
+        "lng":  28.9802,
+        "denom":  "historica",
+        "year":  537,
+        "note":  "Catedral bizantina â†’ mezquita â†’ museo â†’ mezquita (2020). Obra maestra milenaria."
+    },
+    {
+        "name":  "Catedral de San Basilio",
+        "city":  "MoscÃº",
+        "country":  "Rusia",
+        "lat":  55.7525,
+        "lng":  37.6231,
+        "denom":  "ortodoxa",
+        "year":  1561,
+        "note":  "Plaza Roja. CÃºpulas multicolores inconfundibles."
+    },
+    {
+        "name":  "Catedral de Cristo Salvador",
+        "city":  "MoscÃº",
+        "country":  "Rusia",
+        "lat":  55.7446,
+        "lng":  37.6055,
+        "denom":  "ortodoxa",
+        "year":  2000,
+        "note":  "Demolida por Stalin en 1931, reconstruida en los 90."
+    },
+    {
+        "name":  "Catedral de la DormiciÃ³n",
+        "city":  "MoscÃº",
+        "country":  "Rusia",
+        "lat":  55.7510,
+        "lng":  37.6170,
+        "denom":  "ortodoxa",
+        "year":  1479,
+        "note":  "Kremlin. Coronaciones de zares."
+    },
+    {
+        "name":  "Catedral de la Sangre Derramada",
+        "city":  "San Petersburgo",
+        "country":  "Rusia",
+        "lat":  59.9400,
+        "lng":  30.3289,
+        "denom":  "ortodoxa",
+        "year":  1907,
+        "note":  "En el lugar del asesinato del zar Alejandro II."
+    },
+    {
+        "name":  "Catedral de San Isaac",
+        "city":  "San Petersburgo",
+        "country":  "Rusia",
+        "lat":  59.9342,
+        "lng":  30.3061,
+        "denom":  "ortodoxa",
+        "year":  1858,
+        "note":  "CÃºpula dorada. NeoclÃ¡sico ruso."
+    },
+    {
+        "name":  "Catedral de KazÃ¡n",
+        "city":  "San Petersburgo",
+        "country":  "Rusia",
+        "lat":  59.9342,
+        "lng":  30.3250,
+        "denom":  "ortodoxa",
+        "year":  1811,
+        "note":  "Columnata inspirada en San Pedro del Vaticano."
+    },
+    {
+        "name":  "Catedral de Santa SofÃ­a",
+        "city":  "Kiev",
+        "country":  "Ucrania",
+        "lat":  50.4528,
+        "lng":  30.5144,
+        "denom":  "ortodoxa",
+        "year":  1037,
+        "note":  "Mosaicos bizantinos del siglo XI. UNESCO."
+    },
+    {
+        "name":  "Monasterio de las Cuevas",
+        "city":  "Kiev",
+        "country":  "Ucrania",
+        "lat":  50.4347,
+        "lng":  30.5575,
+        "denom":  "ortodoxa",
+        "year":  1073,
+        "note":  "Lavra de Pecherska. Cuna de la ortodoxia eslava."
+    },
+    {
+        "name":  "Catedral de Alejandro Nevski",
+        "city":  "SofÃ­a",
+        "country":  "Bulgaria",
+        "lat":  42.6959,
+        "lng":  23.3327,
+        "denom":  "ortodoxa",
+        "year":  1912,
+        "note":  "Una de las mayores catedrales ortodoxas del mundo."
+    },
+    {
+        "name":  "Catedral Metropolitana",
+        "city":  "Atenas",
+        "country":  "Grecia",
+        "lat":  37.9751,
+        "lng":  23.7300,
+        "denom":  "ortodoxa",
+        "year":  1862,
+        "note":  "Sede del Arzobispo de Atenas."
+    },
+    {
+        "name":  "Monasterio de Rila",
+        "city":  "Rila",
+        "country":  "Bulgaria",
+        "lat":  42.1333,
+        "lng":  23.3400,
+        "denom":  "ortodoxa",
+        "year":  927,
+        "note":  "UNESCO. CorazÃ³n espiritual bÃºlgaro."
+    },
+    {
+        "name":  "Catedral de San Vito",
+        "city":  "Praga",
+        "country":  "Chequia",
+        "lat":  50.0909,
+        "lng":  14.4004,
+        "denom":  "catolica",
+        "year":  1929,
+        "note":  "Dentro del Castillo de Praga. Joyas de la corona checa."
+    },
+    {
+        "name":  "BasÃ­lica de Esztergom",
+        "city":  "Esztergom",
+        "country":  "HungrÃ­a",
+        "lat":  47.7997,
+        "lng":  18.7361,
+        "denom":  "catolica",
+        "year":  1869,
+        "note":  "La iglesia mÃ¡s grande de HungrÃ­a."
+    },
+    {
+        "name":  "Catedral de San Esteban",
+        "city":  "Viena",
+        "country":  "Austria",
+        "lat":  48.2084,
+        "lng":  16.3731,
+        "denom":  "catolica",
+        "year":  1511,
+        "note":  "Stephansdom. Tejado de cerÃ¡mica con mosaico de Ã¡guila bicÃ©fala."
+    },
+    {
+        "name":  "Catedral de Wawel",
+        "city":  "Cracovia",
+        "country":  "Polonia",
+        "lat":  50.0544,
+        "lng":  19.9354,
+        "denom":  "catolica",
+        "year":  1364,
+        "note":  "CoronaciÃ³n de reyes polacos. Tumbas nacionales."
+    },
+    {
+        "name":  "BasÃ­lica de Juan Pablo II",
+        "city":  "Cracovia",
+        "country":  "Polonia",
+        "lat":  50.0181,
+        "lng":  19.9719,
+        "denom":  "catolica",
+        "year":  2016,
+        "note":  "Santuario de Divina Misericordia en Åagiewniki."
+    },
+    {
+        "name":  "Catedral de San Sava",
+        "city":  "Belgrado",
+        "country":  "Serbia",
+        "lat":  44.7983,
+        "lng":  20.4686,
+        "denom":  "ortodoxa",
+        "year":  2004,
+        "note":  "Una de las iglesias ortodoxas mÃ¡s grandes del mundo."
+    },
+    {
+        "name":  "Catedral de San Dimitri",
+        "city":  "TesalÃ³nica",
+        "country":  "Grecia",
+        "lat":  40.6386,
+        "lng":  22.9475,
+        "denom":  "ortodoxa",
+        "year":  629,
+        "note":  "Patrono de la ciudad. UNESCO."
+    },
+    {
+        "name":  "Catedral de Uppsala",
+        "city":  "Uppsala",
+        "country":  "Suecia",
+        "lat":  59.8586,
+        "lng":  17.6330,
+        "denom":  "protestante",
+        "year":  1435,
+        "note":  "La iglesia mÃ¡s grande de Escandinavia. Sede luterana."
+    },
+    {
+        "name":  "Catedral de Estocolmo",
+        "city":  "Estocolmo",
+        "country":  "Suecia",
+        "lat":  59.3251,
+        "lng":  18.0707,
+        "denom":  "protestante",
+        "year":  1279,
+        "note":  "Storkyrkan. CoronaciÃ³n de reyes suecos."
+    },
+    {
+        "name":  "Catedral de Roskilde",
+        "city":  "Roskilde",
+        "country":  "Dinamarca",
+        "lat":  55.6424,
+        "lng":  12.0816,
+        "denom":  "protestante",
+        "year":  1275,
+        "note":  "Mausoleo real danÃ©s. UNESCO."
+    },
+    {
+        "name":  "Catedral de Nidaros",
+        "city":  "Trondheim",
+        "country":  "Noruega",
+        "lat":  63.4267,
+        "lng":  10.3967,
+        "denom":  "protestante",
+        "year":  1300,
+        "note":  "La catedral gÃ³tica mÃ¡s septentrional. CoronaciÃ³n de reyes noruegos."
+    },
+    {
+        "name":  "Catedral de Helsinki",
+        "city":  "Helsinki",
+        "country":  "Finlandia",
+        "lat":  60.1706,
+        "lng":  24.9524,
+        "denom":  "protestante",
+        "year":  1852,
+        "note":  "NeoclÃ¡sica blanca. Icono de la ciudad."
+    },
+    {
+        "name":  "Catedral de Tampere",
+        "city":  "Tampere",
+        "country":  "Finlandia",
+        "lat":  61.4979,
+        "lng":  23.7611,
+        "denom":  "protestante",
+        "year":  1907,
+        "note":  "Art Nouveau finlandÃ©s. Frescos de Simberg."
+    },
+    {
+        "name":  "Catedral de Reykjavik",
+        "city":  "Reykjavik",
+        "country":  "Islandia",
+        "lat":  64.1466,
+        "lng":  -21.9326,
+        "denom":  "protestante",
+        "year":  1796,
+        "note":  "DÃ³mkirkjan. Sede luterana de Islandia."
+    },
+    {
+        "name":  "HallgrÃ­mskirkja",
+        "city":  "Reykjavik",
+        "country":  "Islandia",
+        "lat":  64.1417,
+        "lng":  -21.9266,
+        "denom":  "protestante",
+        "year":  1986,
+        "note":  "Inspirada en las columnas basÃ¡lticas islandesas."
+    },
+    {
+        "name":  "Catedral de San Patricio",
+        "city":  "DublÃ­n",
+        "country":  "Irlanda",
+        "lat":  53.3393,
+        "lng":  -6.2711,
+        "denom":  "anglicana",
+        "year":  1270,
+        "note":  "La iglesia mÃ¡s grande de Irlanda. Swift fue deÃ¡n aquÃ­."
+    },
+    {
+        "name":  "Catedral Christ Church",
+        "city":  "DublÃ­n",
+        "country":  "Irlanda",
+        "lat":  53.3434,
+        "lng":  -6.2711,
+        "denom":  "anglicana",
+        "year":  1240,
+        "note":  "Cripta medieval mÃ¡s grande de Irlanda y Gran BretaÃ±a."
+    },
+    {
+        "name":  "Iglesia del Santo Sepulcro",
+        "city":  "JerusalÃ©n",
+        "country":  "Israel/Palestina",
+        "lat":  31.7784,
+        "lng":  35.2296,
+        "denom":  "historica",
+        "year":  335,
+        "note":  "Lugar tradicional de la crucifixiÃ³n y resurrecciÃ³n. Seis confesiones cristianas comparten custodia."
+    },
+    {
+        "name":  "BasÃ­lica de la Natividad",
+        "city":  "BelÃ©n",
+        "country":  "Palestina",
+        "lat":  31.7042,
+        "lng":  35.2075,
+        "denom":  "historica",
+        "year":  339,
+        "note":  "Sobre la gruta tradicional del nacimiento de JesÃºs. UNESCO."
+    },
+    {
+        "name":  "Catedral de San Jorge",
+        "city":  "JerusalÃ©n",
+        "country":  "Israel",
+        "lat":  31.7878,
+        "lng":  35.2294,
+        "denom":  "anglicana",
+        "year":  1898,
+        "note":  "Sede de la DiÃ³cesis Anglicana de JerusalÃ©n."
+    },
+    {
+        "name":  "Catedral de San Marcos",
+        "city":  "El Cairo",
+        "country":  "Egipto",
+        "lat":  30.0664,
+        "lng":  31.2440,
+        "denom":  "ortodoxa",
+        "year":  1968,
+        "note":  "Sede del Papa copto. Una de las mayores catedrales de Ãfrica."
+    },
+    {
+        "name":  "Monasterio de Santa Catalina",
+        "city":  "SinaÃ­",
+        "country":  "Egipto",
+        "lat":  28.5559,
+        "lng":  33.9761,
+        "denom":  "ortodoxa",
+        "year":  565,
+        "note":  "UNESCO. Uno de los monasterios cristianos mÃ¡s antiguos en uso."
+    },
+    {
+        "name":  "Catedral Maronita San Jorge",
+        "city":  "Beirut",
+        "country":  "LÃ­bano",
+        "lat":  33.8953,
+        "lng":  35.5131,
+        "denom":  "catolica",
+        "year":  1894,
+        "note":  "Sede de los maronitas en Beirut."
+    },
+    {
+        "name":  "Catedral de Echmiadzin",
+        "city":  "Vagharshapat",
+        "country":  "Armenia",
+        "lat":  40.1619,
+        "lng":  44.2914,
+        "denom":  "ortodoxa",
+        "year":  303,
+        "note":  "Catedral cristiana mÃ¡s antigua del mundo. Sede de la Iglesia ApostÃ³lica Armenia."
+    },
+    {
+        "name":  "Svetitskhoveli",
+        "city":  "Mtskheta",
+        "country":  "Georgia",
+        "lat":  41.8428,
+        "lng":  44.7208,
+        "denom":  "ortodoxa",
+        "year":  1029,
+        "note":  "Catedral georgiana patriarcal. UNESCO."
+    },
+    {
+        "name":  "Catedral Tsminda Sameba",
+        "city":  "Tiflis",
+        "country":  "Georgia",
+        "lat":  41.6973,
+        "lng":  44.8097,
+        "denom":  "ortodoxa",
+        "year":  2004,
+        "note":  "Una de las mayores catedrales ortodoxas del mundo."
+    },
+    {
+        "name":  "Iglesias de Lalibela",
+        "city":  "Lalibela",
+        "country":  "EtiopÃ­a",
+        "lat":  12.0314,
+        "lng":  39.0472,
+        "denom":  "ortodoxa",
+        "year":  1200,
+        "note":  "Once iglesias talladas monolÃ­ticamente en la roca. UNESCO."
+    },
+    {
+        "name":  "Catedral de la SantÃ­sima Trinidad",
+        "city":  "AdÃ­s Abeba",
+        "country":  "EtiopÃ­a",
+        "lat":  9.0353,
+        "lng":  38.7648,
+        "denom":  "ortodoxa",
+        "year":  1944,
+        "note":  "Sede ortodoxa etÃ­ope. Tumba de Haile Selassie."
+    },
+    {
+        "name":  "Catedral de San Jorge",
+        "city":  "AdÃ­s Abeba",
+        "country":  "EtiopÃ­a",
+        "lat":  9.0372,
+        "lng":  38.7528,
+        "denom":  "ortodoxa",
+        "year":  1911,
+        "note":  "CoronaciÃ³n de Haile Selassie en 1930."
+    },
+    {
+        "name":  "BasÃ­lica de Notre-Dame de la Paix",
+        "city":  "Yamoussoukro",
+        "country":  "Costa de Marfil",
+        "lat":  6.8125,
+        "lng":  -5.2975,
+        "denom":  "catolica",
+        "year":  1989,
+        "note":  "La iglesia cristiana mÃ¡s grande del mundo por superficie. Inspirada en San Pedro."
+    },
+    {
+        "name":  "Catedral de San Jorge",
+        "city":  "Ciudad del Cabo",
+        "country":  "SudÃ¡frica",
+        "lat":  -33.9253,
+        "lng":  18.4236,
+        "denom":  "anglicana",
+        "year":  1901,
+        "note":  "Sede de Desmond Tutu durante el apartheid."
+    },
+    {
+        "name":  "Catedral Sagrada Familia",
+        "city":  "Nairobi",
+        "country":  "Kenia",
+        "lat":  -1.2856,
+        "lng":  36.8189,
+        "denom":  "catolica",
+        "year":  1963,
+        "note":  "Sede metropolitana de Nairobi."
+    },
+    {
+        "name":  "Catedral de San Pablo",
+        "city":  "AbiyÃ¡n",
+        "country":  "Costa de Marfil",
+        "lat":  5.3217,
+        "lng":  -4.0231,
+        "denom":  "catolica",
+        "year":  1985,
+        "note":  "Arquitectura modernista con velas de hormigÃ³n."
+    },
+    {
+        "name":  "Catedral de Luanda",
+        "city":  "Luanda",
+        "country":  "Angola",
+        "lat":  -8.8147,
+        "lng":  13.2302,
+        "denom":  "catolica",
+        "year":  1628,
+        "note":  "Una de las catedrales mÃ¡s antiguas del Ãfrica subsahariana."
+    },
+    {
+        "name":  "Catedral de San JosÃ©",
+        "city":  "Dar es Salaam",
+        "country":  "Tanzania",
+        "lat":  -6.8194,
+        "lng":  39.2911,
+        "denom":  "catolica",
+        "year":  1902,
+        "note":  "NeogÃ³tica. Legado misionero alemÃ¡n."
+    },
+    {
+        "name":  "Catedral de San Patricio",
+        "city":  "Nueva York",
+        "country":  "EE.UU.",
+        "lat":  40.7585,
+        "lng":  -73.9759,
+        "denom":  "catolica",
+        "year":  1879,
+        "note":  "NeogÃ³tica. Quinta Avenida."
+    },
+    {
+        "name":  "Catedral de San Juan el Divino",
+        "city":  "Nueva York",
+        "country":  "EE.UU.",
+        "lat":  40.8038,
+        "lng":  -73.9619,
+        "denom":  "anglicana",
+        "year":  1941,
+        "note":  "Episcopal. Catedral inacabada mÃ¡s grande del mundo."
+    },
+    {
+        "name":  "Catedral Nacional",
+        "city":  "Washington D.C.",
+        "country":  "EE.UU.",
+        "lat":  38.9305,
+        "lng":  -77.0708,
+        "denom":  "anglicana",
+        "year":  1990,
+        "note":  "Episcopal. Funerales de estado. Piedra lunar en vidriera."
+    },
+    {
+        "name":  "BasÃ­lica Inmaculada ConcepciÃ³n",
+        "city":  "Washington D.C.",
+        "country":  "EE.UU.",
+        "lat":  38.9331,
+        "lng":  -77.0011,
+        "denom":  "catolica",
+        "year":  1959,
+        "note":  "La iglesia catÃ³lica mÃ¡s grande de NorteamÃ©rica."
+    },
+    {
+        "name":  "Catedral de Cristo Rey",
+        "city":  "Los Ãngeles",
+        "country":  "EE.UU.",
+        "lat":  34.0586,
+        "lng":  -118.2467,
+        "denom":  "catolica",
+        "year":  2002,
+        "note":  "Nuestra SeÃ±ora de los Ãngeles. DiseÃ±o de Rafael Moneo."
+    },
+    {
+        "name":  "Templo de Salt Lake",
+        "city":  "Salt Lake City",
+        "country":  "EE.UU.",
+        "lat":  40.7705,
+        "lng":  -111.8910,
+        "denom":  "historica",
+        "year":  1893,
+        "note":  "Templo mormÃ³n (SUD). Referencia cristiana restauracionista."
+    },
+    {
+        "name":  "Catedral de la Santa Cruz",
+        "city":  "Boston",
+        "country":  "EE.UU.",
+        "lat":  42.3397,
+        "lng":  -71.0714,
+        "denom":  "catolica",
+        "year":  1875,
+        "note":  "Sede de la ArquidiÃ³cesis de Boston."
+    },
+    {
+        "name":  "Catedral BasÃ­lica San Luis",
+        "city":  "San Luis",
+        "country":  "EE.UU.",
+        "lat":  38.6372,
+        "lng":  -90.2597,
+        "denom":  "catolica",
+        "year":  1914,
+        "note":  "La mayor colecciÃ³n de mosaicos del hemisferio occidental."
+    },
+    {
+        "name":  "Grace Cathedral",
+        "city":  "San Francisco",
+        "country":  "EE.UU.",
+        "lat":  37.7924,
+        "lng":  -122.4131,
+        "denom":  "anglicana",
+        "year":  1964,
+        "note":  "Episcopal. Puertas del ParaÃ­so replicadas de Ghiberti."
+    },
+    {
+        "name":  "Catedral Metropolitana de MÃ©xico",
+        "city":  "Ciudad de MÃ©xico",
+        "country":  "MÃ©xico",
+        "lat":  19.4347,
+        "lng":  -99.1331,
+        "denom":  "catolica",
+        "year":  1813,
+        "note":  "La catedral mÃ¡s antigua y grande de AmÃ©rica. Sobre el Templo Mayor azteca."
+    },
+    {
+        "name":  "BasÃ­lica de Guadalupe",
+        "city":  "Ciudad de MÃ©xico",
+        "country":  "MÃ©xico",
+        "lat":  19.4847,
+        "lng":  -99.1172,
+        "denom":  "catolica",
+        "year":  1976,
+        "note":  "Santuario mariano mÃ¡s visitado del mundo. Ayate de Juan Diego."
+    },
+    {
+        "name":  "Catedral de Puebla",
+        "city":  "Puebla",
+        "country":  "MÃ©xico",
+        "lat":  19.0419,
+        "lng":  -98.1981,
+        "denom":  "catolica",
+        "year":  1690,
+        "note":  "Barroco novohispano. Segunda iglesia mÃ¡s alta de MÃ©xico."
+    },
+    {
+        "name":  "Catedral de Morelia",
+        "city":  "Morelia",
+        "country":  "MÃ©xico",
+        "lat":  19.7025,
+        "lng":  -101.1925,
+        "denom":  "catolica",
+        "year":  1744,
+        "note":  "Barroco mexicano en cantera rosa."
+    },
+    {
+        "name":  "Catedral Primada de AmÃ©rica",
+        "city":  "Santo Domingo",
+        "country":  "Rep. Dominicana",
+        "lat":  18.4733,
+        "lng":  -69.8842,
+        "denom":  "catolica",
+        "year":  1540,
+        "note":  "La catedral mÃ¡s antigua del Nuevo Mundo."
+    },
+    {
+        "name":  "Catedral de La Habana",
+        "city":  "La Habana",
+        "country":  "Cuba",
+        "lat":  23.1411,
+        "lng":  -82.3533,
+        "denom":  "catolica",
+        "year":  1777,
+        "note":  "Barroco cubano en piedra caliza coralina."
+    },
+    {
+        "name":  "Catedral de Guatemala",
+        "city":  "Ciudad de Guatemala",
+        "country":  "Guatemala",
+        "lat":  14.6417,
+        "lng":  -90.5125,
+        "denom":  "catolica",
+        "year":  1815,
+        "note":  "Memorial de vÃ­ctimas del conflicto armado interno."
+    },
+    {
+        "name":  "Catedral Metropolitana",
+        "city":  "RÃ­o de Janeiro",
+        "country":  "Brasil",
+        "lat":  -22.9100,
+        "lng":  -43.1806,
+        "denom":  "catolica",
+        "year":  1979,
+        "note":  "Cono modernista. Vidrieras monumentales de 64 metros."
+    },
+    {
+        "name":  "Catedral de SÃ£o Paulo",
+        "city":  "SÃ£o Paulo",
+        "country":  "Brasil",
+        "lat":  -23.5506,
+        "lng":  -46.6339,
+        "denom":  "catolica",
+        "year":  1954,
+        "note":  "SÃ©. Mayor iglesia neogÃ³tica de Brasil."
+    },
+    {
+        "name":  "Santuario de Aparecida",
+        "city":  "Aparecida",
+        "country":  "Brasil",
+        "lat":  -22.8478,
+        "lng":  -45.2303,
+        "denom":  "catolica",
+        "year":  1980,
+        "note":  "Segunda basÃ­lica catÃ³lica mÃ¡s grande del mundo."
+    },
+    {
+        "name":  "Catedral Metropolitana",
+        "city":  "Brasilia",
+        "country":  "Brasil",
+        "lat":  -15.7985,
+        "lng":  -47.8758,
+        "denom":  "catolica",
+        "year":  1970,
+        "note":  "DiseÃ±o de Oscar Niemeyer. Hiperboloide de 16 columnas."
+    },
+    {
+        "name":  "Catedral Metropolitana",
+        "city":  "Buenos Aires",
+        "country":  "Argentina",
+        "lat":  -34.6083,
+        "lng":  -58.3728,
+        "denom":  "catolica",
+        "year":  1827,
+        "note":  "NeoclÃ¡sica. Donde el papa Francisco fue arzobispo."
+    },
+    {
+        "name":  "BasÃ­lica de LujÃ¡n",
+        "city":  "LujÃ¡n",
+        "country":  "Argentina",
+        "lat":  -34.5703,
+        "lng":  -59.1056,
+        "denom":  "catolica",
+        "year":  1935,
+        "note":  "Patrona de Argentina. NeogÃ³tico en mÃ¡rmol."
+    },
+    {
+        "name":  "Catedral de Santiago",
+        "city":  "Santiago",
+        "country":  "Chile",
+        "lat":  -33.4378,
+        "lng":  -70.6506,
+        "denom":  "catolica",
+        "year":  1800,
+        "note":  "Plaza de Armas. NeoclÃ¡sica."
+    },
+    {
+        "name":  "Catedral de Lima",
+        "city":  "Lima",
+        "country":  "PerÃº",
+        "lat":  -12.0466,
+        "lng":  -77.0300,
+        "denom":  "catolica",
+        "year":  1649,
+        "note":  "Sepulcro de Francisco Pizarro."
+    },
+    {
+        "name":  "Catedral de Cusco",
+        "city":  "Cusco",
+        "country":  "PerÃº",
+        "lat":  -13.5167,
+        "lng":  -71.9786,
+        "denom":  "catolica",
+        "year":  1654,
+        "note":  "Sobre el palacio inca de Viracocha. Sincretismo andino."
+    },
+    {
+        "name":  "Catedral Primada",
+        "city":  "BogotÃ¡",
+        "country":  "Colombia",
+        "lat":  4.5981,
+        "lng":  -74.0756,
+        "denom":  "catolica",
+        "year":  1823,
+        "note":  "Plaza de BolÃ­var. NeoclÃ¡sica."
+    },
+    {
+        "name":  "Santuario de las Lajas",
+        "city":  "Ipiales",
+        "country":  "Colombia",
+        "lat":  0.8048,
+        "lng":  -77.5856,
+        "denom":  "catolica",
+        "year":  1949,
+        "note":  "NeogÃ³tico suspendido sobre caÃ±Ã³n. PeregrinaciÃ³n andina."
+    },
+    {
+        "name":  "Catedral de Quito",
+        "city":  "Quito",
+        "country":  "Ecuador",
+        "lat":  -0.2206,
+        "lng":  -78.5122,
+        "denom":  "catolica",
+        "year":  1806,
+        "note":  "Centro histÃ³rico UNESCO."
+    },
+    {
+        "name":  "BasÃ­lica del Voto Nacional",
+        "city":  "Quito",
+        "country":  "Ecuador",
+        "lat":  -0.2147,
+        "lng":  -78.5078,
+        "denom":  "catolica",
+        "year":  1988,
+        "note":  "NeogÃ³tica con gÃ¡rgolas de fauna galapagueÃ±a."
+    },
+    {
+        "name":  "BasÃ­lica del Santo NiÃ±o",
+        "city":  "CebÃº",
+        "country":  "Filipinas",
+        "lat":  10.2944,
+        "lng":  123.9019,
+        "denom":  "catolica",
+        "year":  1739,
+        "note":  "La iglesia cristiana mÃ¡s antigua de Filipinas."
+    },
+    {
+        "name":  "Catedral de Manila",
+        "city":  "Manila",
+        "country":  "Filipinas",
+        "lat":  14.5917,
+        "lng":  120.9736,
+        "denom":  "catolica",
+        "year":  1958,
+        "note":  "Sede primada. Reconstruida ocho veces desde 1581."
+    },
+    {
+        "name":  "Catedral de San JosÃ©",
+        "city":  "HanÃ³i",
+        "country":  "Vietnam",
+        "lat":  21.0286,
+        "lng":  105.8489,
+        "denom":  "catolica",
+        "year":  1886,
+        "note":  "NeogÃ³tica colonial francesa."
+    },
+    {
+        "name":  "Catedral de Notre-Dame",
+        "city":  "Ho Chi Minh",
+        "country":  "Vietnam",
+        "lat":  10.7798,
+        "lng":  106.6991,
+        "denom":  "catolica",
+        "year":  1880,
+        "note":  "Ladrillos importados de Toulouse. Colonial francesa."
+    },
+    {
+        "name":  "Catedral de San Pablo",
+        "city":  "Macao",
+        "country":  "China (Macao)",
+        "lat":  22.1975,
+        "lng":  113.5414,
+        "denom":  "historica",
+        "year":  1640,
+        "note":  "Ruinas icÃ³nicas. Jesuita. Fachada Ãºnica superviviente del incendio de 1835."
+    },
+    {
+        "name":  "Catedral de Xishiku",
+        "city":  "PekÃ­n",
+        "country":  "China",
+        "lat":  39.9256,
+        "lng":  116.3783,
+        "denom":  "catolica",
+        "year":  1888,
+        "note":  "Beitang. ResistiÃ³ el asedio bÃ³xer de 1900."
+    },
+    {
+        "name":  "Catedral de San Ignacio",
+        "city":  "ShanghÃ¡i",
+        "country":  "China",
+        "lat":  31.1928,
+        "lng":  121.4267,
+        "denom":  "catolica",
+        "year":  1910,
+        "note":  "Xujiahui. NeogÃ³tica. Mayor catedral catÃ³lica china."
+    },
+    {
+        "name":  "Catedral de Tokio",
+        "city":  "Tokio",
+        "country":  "JapÃ³n",
+        "lat":  35.7206,
+        "lng":  139.7269,
+        "denom":  "catolica",
+        "year":  1964,
+        "note":  "Santa MarÃ­a. DiseÃ±o de KenzÅ Tange en hiperboloide."
+    },
+    {
+        "name":  "Catedral Nikolai-do",
+        "city":  "Tokio",
+        "country":  "JapÃ³n",
+        "lat":  35.6989,
+        "lng":  139.7661,
+        "denom":  "ortodoxa",
+        "year":  1891,
+        "note":  "Catedral de la ResurrecciÃ³n. Sede ortodoxa japonesa."
+    },
+    {
+        "name":  "Catedral de Oura",
+        "city":  "Nagasaki",
+        "country":  "JapÃ³n",
+        "lat":  32.7367,
+        "lng":  129.8692,
+        "denom":  "catolica",
+        "year":  1864,
+        "note":  "La iglesia cristiana mÃ¡s antigua de JapÃ³n. UNESCO."
+    },
+    {
+        "name":  "Catedral de Myeongdong",
+        "city":  "SeÃºl",
+        "country":  "Corea del Sur",
+        "lat":  37.5634,
+        "lng":  126.9873,
+        "denom":  "catolica",
+        "year":  1898,
+        "note":  "Sede catÃ³lica coreana. Refugio durante la dictadura militar."
+    },
+    {
+        "name":  "BasÃ­lica del Buen Pastor",
+        "city":  "Singapur",
+        "country":  "Singapur",
+        "lat":  1.2944,
+        "lng":  103.8508,
+        "denom":  "catolica",
+        "year":  1847,
+        "note":  "La iglesia catÃ³lica mÃ¡s antigua de Singapur."
+    },
+    {
+        "name":  "Catedral de San AndrÃ©s",
+        "city":  "Singapur",
+        "country":  "Singapur",
+        "lat":  1.2928,
+        "lng":  103.8514,
+        "denom":  "anglicana",
+        "year":  1862,
+        "note":  "NeogÃ³tica colonial britÃ¡nica."
+    },
+    {
+        "name":  "Catedral Armenia",
+        "city":  "Calcuta",
+        "country":  "India",
+        "lat":  22.5728,
+        "lng":  88.3556,
+        "denom":  "ortodoxa",
+        "year":  1724,
+        "note":  "La iglesia cristiana mÃ¡s antigua de Calcuta."
+    },
+    {
+        "name":  "BasÃ­lica del Buen JesÃºs",
+        "city":  "Goa",
+        "country":  "India",
+        "lat":  15.5007,
+        "lng":  73.9114,
+        "denom":  "catolica",
+        "year":  1605,
+        "note":  "UNESCO. Cuerpo incorrupto de San Francisco Javier."
+    },
+    {
+        "name":  "Catedral de San Jorge",
+        "city":  "Chennai",
+        "country":  "India",
+        "lat":  13.0622,
+        "lng":  80.2456,
+        "denom":  "anglicana",
+        "year":  1815,
+        "note":  "DiÃ³cesis anglicana mÃ¡s antigua de la India."
+    },
+    {
+        "name":  "Catedral de Santa MarÃ­a",
+        "city":  "SÃ­dney",
+        "country":  "Australia",
+        "lat":  -33.8716,
+        "lng":  151.2132,
+        "denom":  "catolica",
+        "year":  1928,
+        "note":  "NeogÃ³tica. La iglesia mÃ¡s grande de Australia."
+    },
+    {
+        "name":  "Catedral de San Patricio",
+        "city":  "Melbourne",
+        "country":  "Australia",
+        "lat":  -37.8103,
+        "lng":  144.9764,
+        "denom":  "catolica",
+        "year":  1939,
+        "note":  "NeogÃ³tica en piedra arenisca."
+    },
+    {
+        "name":  "Catedral Anglicana",
+        "city":  "Wellington",
+        "country":  "Nueva Zelanda",
+        "lat":  -41.2776,
+        "lng":  174.7810,
+        "denom":  "anglicana",
+        "year":  1998,
+        "note":  "San Pablo. Arquitectura modernista."
+    },
+    {
+        "name":  "Catedral de Christchurch",
+        "city":  "Christchurch",
+        "country":  "Nueva Zelanda",
+        "lat":  -43.5308,
+        "lng":  172.6358,
+        "denom":  "anglicana",
+        "year":  1904,
+        "note":  "DaÃ±ada por el terremoto de 2011. En restauraciÃ³n."
+    },
+    {
+        "name":  "BasÃ­lica de Notre-Dame",
+        "city":  "Montreal",
+        "country":  "CanadÃ¡",
+        "lat":  45.5045,
+        "lng":  -73.5564,
+        "denom":  "catolica",
+        "year":  1829,
+        "note":  "NeogÃ³tica. Interior policromado espectacular."
+    },
+    {
+        "name":  "Oratorio de San JosÃ©",
+        "city":  "Montreal",
+        "country":  "CanadÃ¡",
+        "lat":  45.4919,
+        "lng":  -73.6175,
+        "denom":  "catolica",
+        "year":  1967,
+        "note":  "La iglesia mÃ¡s alta de CanadÃ¡. BasÃ­lica menor."
+    },
+    {
+        "name":  "BasÃ­lica-Catedral de Quebec",
+        "city":  "Ciudad de Quebec",
+        "country":  "CanadÃ¡",
+        "lat":  46.8139,
+        "lng":  -71.2058,
+        "denom":  "catolica",
+        "year":  1650,
+        "note":  "La catedral catÃ³lica mÃ¡s antigua al norte de MÃ©xico."
+    },
+    {
+        "name":  "Iglesia CatÃ³lica de Toronto",
+        "city":  "Toronto",
+        "country":  "CanadÃ¡",
+        "lat":  43.6548,
+        "lng":  -79.3761,
+        "denom":  "catolica",
+        "year":  1848,
+        "note":  "Catedral de San Miguel. NeogÃ³tica."
+    },
+    {
+        "name":  "Catedral de Valencia",
+        "city":  "Valencia",
+        "country":  "EspaÃ±a",
+        "lat":  39.4756,
+        "lng":  -0.3753,
+        "denom":  "catolica",
+        "year":  1262,
+        "note":  "Sede valenciana. TradiciÃ³n del Santo CÃ¡liz."
+    },
+    {
+        "name":  "Catedral de Oviedo",
+        "city":  "Oviedo",
+        "country":  "EspaÃ±a",
+        "lat":  43.3619,
+        "lng":  -5.8448,
+        "denom":  "catolica",
+        "year":  1388,
+        "note":  "GÃ³tico asturiano. CÃ¡mara Santa con reliquias del Reino de Asturias."
+    },
+    {
+        "name":  "Catedral de Santa MarÃ­a la Real",
+        "city":  "Pamplona",
+        "country":  "EspaÃ±a",
+        "lat":  42.8186,
+        "lng":  -1.6436,
+        "denom":  "catolica",
+        "year":  1525,
+        "note":  "Claustro gÃ³tico y fachada neoclÃ¡sica."
+    },
+    {
+        "name":  "Catedral de Santa Eulalia",
+        "city":  "Barcelona",
+        "country":  "EspaÃ±a",
+        "lat":  41.3839,
+        "lng":  2.1763,
+        "denom":  "catolica",
+        "year":  1298,
+        "note":  "GÃ³tico catalÃ¡n en pleno barrio gÃ³tico."
+    },
+    {
+        "name":  "Co-Catedral de San Juan",
+        "city":  "La Valeta",
+        "country":  "Malta",
+        "lat":  35.8978,
+        "lng":  14.5125,
+        "denom":  "catolica",
+        "year":  1577,
+        "note":  "Templo barroco de los caballeros de Malta. Caravaggio en el interior."
+    },
+    {
+        "name":  "Catedral de San Pablo",
+        "city":  "Mdina",
+        "country":  "Malta",
+        "lat":  35.8868,
+        "lng":  14.4031,
+        "denom":  "catolica",
+        "year":  1702,
+        "note":  "Barroco maltÃ©s levantado tras el terremoto de 1693."
+    },
+    {
+        "name":  "Catedral de San TrifÃ³n",
+        "city":  "Kotor",
+        "country":  "Montenegro",
+        "lat":  42.4245,
+        "lng":  18.7712,
+        "denom":  "catolica",
+        "year":  1166,
+        "note":  "RomÃ¡nico adriÃ¡tico. CorazÃ³n histÃ³rico de Kotor."
+    },
+    {
+        "name":  "Catedral de San Juan Bautista",
+        "city":  "San Juan",
+        "country":  "Puerto Rico",
+        "lat":  18.4663,
+        "lng":  -66.1185,
+        "denom":  "catolica",
+        "year":  1540,
+        "note":  "Una de las catedrales mÃ¡s antiguas de AmÃ©rica."
+    },
+    {
+        "name":  "Catedral de la AnunciaciÃ³n",
+        "city":  "MoscÃº",
+        "country":  "Rusia",
+        "lat":  55.7525,
+        "lng":  37.6178,
+        "denom":  "ortodoxa",
+        "year":  1489,
+        "note":  "Catedral del Kremlin. Antiguo templo privado de los zares."
+    },
+    {
+        "name":  "Catedral Naval de San NicolÃ¡s",
+        "city":  "Kronstadt",
+        "country":  "Rusia",
+        "lat":  59.9956,
+        "lng":  29.7773,
+        "denom":  "ortodoxa",
+        "year":  1913,
+        "note":  "Gran cÃºpula neobizantina dedicada a la marina rusa."
+    },
+    {
+        "name":  "Catedral de Alejandro Nevski",
+        "city":  "Tallin",
+        "country":  "Estonia",
+        "lat":  59.4352,
+        "lng":  24.7392,
+        "denom":  "ortodoxa",
+        "year":  1900,
+        "note":  "CÃºpulas de cebolla sobre la colina de Toompea."
+    },
+    {
+        "name":  "Catedral de San Miguel",
+        "city":  "Sitka",
+        "country":  "EE.UU.",
+        "lat":  57.0530,
+        "lng":  -135.3310,
+        "denom":  "ortodoxa",
+        "year":  1848,
+        "note":  "SÃ­mbolo de la herencia ortodoxa rusa en Alaska."
+    },
+    {
+        "name":  "Catedral de Riga",
+        "city":  "Riga",
+        "country":  "Letonia",
+        "lat":  56.9496,
+        "lng":  24.1048,
+        "denom":  "protestante",
+        "year":  1211,
+        "note":  "Principal templo luterano bÃ¡ltico. Ã“rgano histÃ³rico monumental."
+    }
+]
