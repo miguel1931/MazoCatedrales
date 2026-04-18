@@ -1598,5 +1598,905 @@
         "denom":  "protestante",
         "year":  1211,
         "note":  "Principal templo luterano bÃ¡ltico. Ã“rgano histÃ³rico monumental."
+    },
+    {
+        "lat":  48.4472,
+        "denom":  "catolica",
+        "year":  1260,
+        "name":  "Catedral de Chartres",
+        "lng":  1.4871,
+        "country":  "Francia",
+        "city":  "Chartres",
+        "note":  "Obra maestra del gótico francés y famosa por sus vidrieras."
+    },
+    {
+        "lat":  49.44,
+        "denom":  "catolica",
+        "year":  1506,
+        "name":  "Catedral de Rouen",
+        "lng":  1.0939,
+        "country":  "Francia",
+        "city":  "Rouen",
+        "note":  "Fachada inmortalizada por Monet."
+    },
+    {
+        "lat":  50.8478,
+        "denom":  "catolica",
+        "year":  1519,
+        "name":  "Catedral de Bruselas",
+        "lng":  4.3607,
+        "country":  "Bélgica",
+        "city":  "Bruselas",
+        "note":  "San Miguel y Santa Gúdula."
+    },
+    {
+        "lat":  38.9306,
+        "denom":  "anglicana",
+        "year":  1990,
+        "name":  "Catedral Nacional de Washington",
+        "lng":  -77.0709,
+        "country":  "EE.UU.",
+        "city":  "Washington D.C.",
+        "note":  "Sede episcopal de referencia en EE.UU."
+    },
+    {
+        "lat":  35.6871,
+        "denom":  "catolica",
+        "year":  1886,
+        "name":  "Catedral de San Francisco de Asís",
+        "lng":  -105.9386,
+        "country":  "EE.UU.",
+        "city":  "Santa Fe",
+        "note":  "Románico con influencia francesa en Nuevo México."
+    },
+    {
+        "lat":  38.6393,
+        "denom":  "catolica",
+        "year":  1914,
+        "name":  "Catedral Basílica de San Luis",
+        "lng":  -90.2851,
+        "country":  "EE.UU.",
+        "city":  "St. Louis",
+        "note":  "Con grandes mosaicos interiores."
+    },
+    {
+        "lat":  55.7525,
+        "denom":  "ortodoxa",
+        "year":  1561,
+        "name":  "Catedral de San Basilio",
+        "lng":  37.6231,
+        "country":  "Rusia",
+        "city":  "Moscú",
+        "note":  "Cúpulas icónicas junto a la Plaza Roja."
+    },
+    {
+        "lat":  55.7447,
+        "denom":  "ortodoxa",
+        "year":  2000,
+        "name":  "Catedral de Cristo Salvador",
+        "lng":  37.6056,
+        "country":  "Rusia",
+        "city":  "Moscú",
+        "note":  "Reconstrucción contemporánea de la gran catedral rusa."
+    },
+    {
+        "lat":  42.6959,
+        "denom":  "ortodoxa",
+        "year":  1912,
+        "name":  "Catedral de Alejandro Nevski",
+        "lng":  23.3327,
+        "country":  "Bulgaria",
+        "city":  "Sofía",
+        "note":  "Una de las mayores catedrales ortodoxas."
+    },
+    {
+        "lat":  50.4529,
+        "denom":  "ortodoxa",
+        "year":  1037,
+        "name":  "Catedral de Santa Sofía",
+        "lng":  30.5144,
+        "country":  "Ucrania",
+        "city":  "Kiev",
+        "note":  "Mosaicos medievales y patrimonio UNESCO."
+    },
+    {
+        "lat":  9.0372,
+        "denom":  "ortodoxa",
+        "year":  1911,
+        "name":  "Catedral de San Jorge",
+        "lng":  38.7529,
+        "country":  "Etiopía",
+        "city":  "Addis Abeba",
+        "note":  "Templo de gran relevancia etíope."
+    },
+    {
+        "lat":  19.4346,
+        "denom":  "catolica",
+        "year":  1813,
+        "name":  "Catedral Metropolitana de Ciudad de México",
+        "lng":  -99.1332,
+        "country":  "México",
+        "city":  "Ciudad de México",
+        "note":  "Gran catedral histórica sobre el Zócalo."
+    },
+    {
+        "lat":  4.5981,
+        "denom":  "catolica",
+        "year":  1823,
+        "name":  "Catedral Primada de Bogotá",
+        "lng":  -74.0758,
+        "country":  "Colombia",
+        "city":  "Bogotá",
+        "note":  "Frente a la Plaza de Bolívar."
+    },
+    {
+        "lat":  -22.8478,
+        "denom":  "catolica",
+        "year":  1980,
+        "name":  "Basílica de Aparecida",
+        "lng":  -45.2303,
+        "country":  "Brasil",
+        "city":  "Aparecida",
+        "note":  "Uno de los mayores santuarios católicos del mundo."
+    },
+    {
+        "name":  "Catedral de Maringá",
+        "city":  "Maringá",
+        "country":  "Brasil",
+        "lat":  -23.426286,
+        "lng":  -51.938208,
+        "denom":  "catolica",
+        "year":  1972,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de La Plata",
+        "city":  "La Plata",
+        "country":  "Argentina",
+        "lat":  -34.922883333,
+        "lng":  -57.956316666,
+        "denom":  "catolica",
+        "year":  1932,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral Metropolitana de São Paulo",
+        "city":  "São Paulo",
+        "country":  "Brasil",
+        "lat":  -23.551247,
+        "lng":  -46.634374,
+        "denom":  "catolica",
+        "year":  1913,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral Metropolitana de São Paulo",
+        "city":  "Sé",
+        "country":  "Brasil",
+        "lat":  -23.551247,
+        "lng":  -46.634374,
+        "denom":  "catolica",
+        "year":  1913,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral del Santísimo Sacramento de Christchurch",
+        "city":  "Christchurch City",
+        "country":  "Nueva Zelanda",
+        "lat":  -43.5383,
+        "lng":  172.646,
+        "denom":  "catolica",
+        "year":  1899,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Cristal",
+        "city":  "Garden Grove",
+        "country":  "Estados Unidos",
+        "lat":  33.787396,
+        "lng":  -117.898933,
+        "denom":  "catolica",
+        "year":  1977,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "iglesia de San José",
+        "city":  "Dongcheng",
+        "country":  "República Popular China",
+        "lat":  39.915833333,
+        "lng":  116.405833333,
+        "denom":  "catolica",
+        "year":  1904,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa María de Cagliari",
+        "city":  "Cagliari",
+        "country":  "Italia",
+        "lat":  39.21875,
+        "lng":  9.116972222,
+        "denom":  "catolica",
+        "year":  1933,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Cristo Rey",
+        "city":  "Panevėžys",
+        "country":  "Lituania",
+        "lat":  55.722796,
+        "lng":  24.356237,
+        "denom":  "catolica",
+        "year":  1933,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Alejandro",
+        "city":  "Bérgamo",
+        "country":  "Italia",
+        "lat":  45.70331,
+        "lng":  9.6629,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Cristo Rey",
+        "city":  "Katowice",
+        "country":  "Polonia",
+        "lat":  50.25166,
+        "lng":  19.01905,
+        "denom":  "catolica",
+        "year":  1955,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Cristo Rey",
+        "city":  "Śródmieście",
+        "country":  "Polonia",
+        "lat":  50.25166,
+        "lng":  19.01905,
+        "denom":  "catolica",
+        "year":  1955,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Juan Bautista y San Juan Evangelista",
+        "city":  "Torún",
+        "country":  "Polonia",
+        "lat":  53.009264,
+        "lng":  18.60613,
+        "denom":  "catolica",
+        "year":  1401,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral del Sagrado Corazón",
+        "city":  "Distrito de Nueva Delhi",
+        "country":  "India",
+        "lat":  28.628699,
+        "lng":  77.206651,
+        "denom":  "catolica",
+        "year":  1930,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Igreja da Sé",
+        "city":  "Macao",
+        "country":  "República Popular China",
+        "lat":  22.19361111,
+        "lng":  113.54166667,
+        "denom":  "catolica",
+        "year":  1844,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Silves",
+        "city":  "Silves",
+        "country":  "Portugal",
+        "lat":  37.1901,
+        "lng":  -8.4387,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Chioggia Cathedral",
+        "city":  "Chioggia",
+        "country":  "Italia",
+        "lat":  45.21705556,
+        "lng":  12.27725,
+        "denom":  "catolica",
+        "year":  1633,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "catedral de Pennabilli",
+        "city":  "Pennabilli",
+        "country":  "Italia",
+        "lat":  43.817127,
+        "lng":  12.265291,
+        "denom":  "catolica",
+        "year":  1550,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Santa Madre Teresa en Pristina",
+        "city":  "Pristina",
+        "country":  "Kosovo",
+        "lat":  42.65638889,
+        "lng":  21.15933333,
+        "denom":  "catolica",
+        "year":  2007,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Novara",
+        "city":  "Novara",
+        "country":  "Italia",
+        "lat":  45.44568,
+        "lng":  8.61941,
+        "denom":  "catolica",
+        "year":  1857,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Crema",
+        "city":  "Crema",
+        "country":  "Italia",
+        "lat":  45.36314,
+        "lng":  9.68718,
+        "denom":  "catolica",
+        "year":  1284,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Perugia",
+        "city":  "Perugia",
+        "country":  "Italia",
+        "lat":  43.112686111,
+        "lng":  12.389208333,
+        "denom":  "catolica",
+        "year":  1345,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Riga",
+        "city":  "Central District",
+        "country":  "Letonia",
+        "lat":  56.949166666,
+        "lng":  24.104444444,
+        "denom":  "catolica",
+        "year":  1201,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Nuestra Señora de Fátima",
+        "city":  "Karagandá",
+        "country":  "Kazajistán",
+        "lat":  49.781269,
+        "lng":  73.134831,
+        "denom":  "catolica",
+        "year":  2002,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Patricio de Melbourne",
+        "city":  "Ciudad de Melbourne",
+        "country":  "Australia",
+        "lat":  -37.8101,
+        "lng":  144.976,
+        "denom":  "catolica",
+        "year":  1851,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral Basílica de San Estanislao Kostka",
+        "city":  "Katedralna",
+        "country":  "Polonia",
+        "lat":  51.748819444,
+        "lng":  19.459608333,
+        "denom":  "catolica",
+        "year":  1912,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa María de la Anunciación",
+        "city":  "Údine",
+        "country":  "Italia",
+        "lat":  46.0623,
+        "lng":  13.2369,
+        "denom":  "catolica",
+        "year":  1201,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Basílica-Catedral Marie-Reine-du-Monde",
+        "city":  "Ville-Marie",
+        "country":  "Canadá",
+        "lat":  45.4991,
+        "lng":  -73.5683,
+        "denom":  "catolica",
+        "year":  1875,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Frascati Cathedral",
+        "city":  "Frascati",
+        "country":  "Italia",
+        "lat":  41.8076218,
+        "lng":  12.6811526,
+        "denom":  "catolica",
+        "year":  1636,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Turku",
+        "city":  "Turku",
+        "country":  "Finlandia",
+        "lat":  60.4524612,
+        "lng":  22.27852906,
+        "denom":  "catolica",
+        "year":  1300,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Inmaculada Concepción (Pekín)",
+        "city":  "Xicheng",
+        "country":  "República Popular China",
+        "lat":  39.899463888,
+        "lng":  116.369291666,
+        "denom":  "catolica",
+        "year":  1904,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa María de Tokio",
+        "city":  "Sekiguchi",
+        "country":  "Japón",
+        "lat":  35.714167,
+        "lng":  139.726667,
+        "denom":  "catolica",
+        "year":  1964,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Inmaculada Concepción",
+        "city":  "Hangzhou",
+        "country":  "República Popular China",
+        "lat":  30.269846,
+        "lng":  120.16259,
+        "denom":  "catolica",
+        "year":  1659,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Inmaculada Concepción",
+        "city":  "Nankín",
+        "country":  "República Popular China",
+        "lat":  32.04083333,
+        "lng":  118.77833333,
+        "denom":  "catolica",
+        "year":  1870,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral del Sagrado Corazón",
+        "city":  "Cantón",
+        "country":  "República Popular China",
+        "lat":  23.117316666,
+        "lng":  113.254833333,
+        "denom":  "catolica",
+        "year":  1888,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Inmaculada Concepción (Hong Kong)",
+        "city":  "Hong Kong",
+        "country":  "República Popular China",
+        "lat":  22.278677777,
+        "lng":  114.153891666,
+        "denom":  "catolica",
+        "year":  1883,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Faras",
+        "city":  "Faras",
+        "country":  "Sudán",
+        "lat":  22.18166667,
+        "lng":  31.49694444,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Gniezno",
+        "city":  "Gniezno",
+        "country":  "Polonia",
+        "lat":  52.536777777,
+        "lng":  17.592638888,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Nicolás",
+        "city":  "Municipalidad de la Ciudad de Liubliana",
+        "country":  "Eslovenia",
+        "lat":  46.050714261,
+        "lng":  14.508242129,
+        "denom":  "catolica",
+        "year":  1706,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Mikkeli Cathedral",
+        "city":  "Mikkeli",
+        "country":  "Finlandia",
+        "lat":  61.68927775,
+        "lng":  27.26679089,
+        "denom":  "catolica",
+        "year":  1897,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Monza",
+        "city":  "Monza",
+        "country":  "Italia",
+        "lat":  45.58359,
+        "lng":  9.27567,
+        "denom":  "catolica",
+        "year":  501,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Porvoo Cathedral",
+        "city":  "Porvoo",
+        "country":  "Finlandia",
+        "lat":  60.3971901,
+        "lng":  25.65784595,
+        "denom":  "catolica",
+        "year":  1500,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Savonlinna",
+        "city":  "Savonlinna",
+        "country":  "Finlandia",
+        "lat":  61.86846368,
+        "lng":  28.87715347,
+        "denom":  "catolica",
+        "year":  1874,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Prato",
+        "city":  "Prato",
+        "country":  "Italia",
+        "lat":  43.88194444,
+        "lng":  11.09777778,
+        "denom":  "catolica",
+        "year":  901,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Asunción de María y San Ruperto",
+        "city":  "Wiener Neustadt",
+        "country":  "Austria",
+        "lat":  47.815011111,
+        "lng":  16.242780555,
+        "denom":  "catolica",
+        "year":  1207,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Oliwa",
+        "city":  "Gdansk",
+        "country":  "Polonia",
+        "lat":  54.411111111,
+        "lng":  18.557777777,
+        "denom":  "catolica",
+        "year":  1578,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Pozzuoli Cathedral",
+        "city":  "Pozzuoli",
+        "country":  "Italia",
+        "lat":  40.82145,
+        "lng":  14.12056,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "catedral de Maguelone",
+        "city":  "Villeneuve-lès-Maguelone",
+        "country":  "Francia",
+        "lat":  43.5125,
+        "lng":  3.88361111,
+        "denom":  "catolica",
+        "year":  1001,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa María Asunta (Molfetta)",
+        "city":  "Molfetta",
+        "country":  "Italia",
+        "lat":  41.2042767,
+        "lng":  16.5996472,
+        "denom":  "catolica",
+        "year":  1610,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Coronation Cathedral, Alba Iulia",
+        "city":  "distrito de Alba",
+        "country":  "Rumania",
+        "lat":  46.06842,
+        "lng":  23.56954,
+        "denom":  "catolica",
+        "year":  1922,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Coronation Cathedral, Alba Iulia",
+        "city":  "Alba Iulia",
+        "country":  "Rumania",
+        "lat":  46.06842,
+        "lng":  23.56954,
+        "denom":  "catolica",
+        "year":  1922,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Holy Trinity Cathedral, Liepāja",
+        "city":  "Liepāja",
+        "country":  "Letonia",
+        "lat":  56.509939,
+        "lng":  21.012725,
+        "denom":  "catolica",
+        "year":  1742,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Holy Trinity Cathedral",
+        "city":  "Oulu",
+        "country":  "Finlandia",
+        "lat":  65.0061704,
+        "lng":  25.4585385,
+        "denom":  "catolica",
+        "year":  1957,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Dunblane",
+        "city":  "Stirling",
+        "country":  "Reino Unido",
+        "lat":  56.189410071,
+        "lng":  -3.964972998,
+        "denom":  "catolica",
+        "year":  1100,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Dunblane",
+        "city":  "Dunblane",
+        "country":  "Reino Unido",
+        "lat":  56.189410071,
+        "lng":  -3.964972998,
+        "denom":  "catolica",
+        "year":  1100,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral del Corazón de Jesús",
+        "city":  "Stari Grad",
+        "country":  "Bosnia y Herzegovina",
+        "lat":  43.8592918,
+        "lng":  18.4253936,
+        "denom":  "catolica",
+        "year":  1889,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "templo malatestiano",
+        "city":  "Rímini",
+        "country":  "Italia",
+        "lat":  44.059952,
+        "lng":  12.570276,
+        "denom":  "catolica",
+        "year":  1401,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Samtavisi",
+        "city":  "Distrito de Kaspi",
+        "country":  "Georgia",
+        "lat":  42.006111111,
+        "lng":  44.409166666,
+        "denom":  "catolica",
+        "year":  1001,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de la Natividad de la Madre de Dios",
+        "city":  "Stari Grad",
+        "country":  "Bosnia y Herzegovina",
+        "lat":  43.8582313,
+        "lng":  18.4249069,
+        "denom":  "catolica",
+        "year":  1863,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa María la Nueva",
+        "city":  "Caltanissetta",
+        "country":  "Italia",
+        "lat":  37.489591,
+        "lng":  14.063943,
+        "denom":  "catolica",
+        "year":  1560,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Zagreb Orthodox Cathedral",
+        "city":  "Zagreb",
+        "country":  "Croacia",
+        "lat":  45.81265,
+        "lng":  15.9739,
+        "denom":  "catolica",
+        "year":  1866,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Vilna",
+        "city":  "Vilna",
+        "country":  "Lituania",
+        "lat":  54.685888888,
+        "lng":  25.287877777,
+        "denom":  "catolica",
+        "year":  1387,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral Armenia de la Santa Cruz",
+        "city":  "Gevaş district",
+        "country":  "Turquía",
+        "lat":  38.341667,
+        "lng":  43.035278,
+        "denom":  "catolica",
+        "year":  915,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Martín",
+        "city":  "Lucca",
+        "country":  "Italia",
+        "lat":  43.84066,
+        "lng":  10.50587,
+        "denom":  "catolica",
+        "year":  1060,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "St. Sava Church, Paris",
+        "city":  "XVIII Distrito de París",
+        "country":  "Francia",
+        "lat":  48.8937,
+        "lng":  2.35,
+        "denom":  "catolica",
+        "year":  1906,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Fidenza",
+        "city":  "Fidenza",
+        "country":  "Italia",
+        "lat":  44.866492,
+        "lng":  10.057512,
+        "denom":  "catolica",
+        "year":  1150,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Ejmiatsin",
+        "city":  "Echmiadzin",
+        "country":  "Armenia",
+        "lat":  40.161861111,
+        "lng":  44.291,
+        "denom":  "catolica",
+        "year":  303,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa Ana",
+        "city":  "Debrecen",
+        "country":  "Hungría",
+        "lat":  47.5269,
+        "lng":  21.63,
+        "denom":  "catolica",
+        "year":  1746,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral Basílica de San Miguel",
+        "city":  "Veszprém",
+        "country":  "Hungría",
+        "lat":  47.09712,
+        "lng":  17.90284,
+        "denom":  "catolica",
+        "year":  1380,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Génova",
+        "city":  "Génova",
+        "country":  "Italia",
+        "lat":  44.40766,
+        "lng":  8.93135,
+        "denom":  "catolica",
+        "year":  1098,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Pedro y San Pablo",
+        "city":  "Sarátov",
+        "country":  "Rusia",
+        "lat":  51.5275,
+        "lng":  46.044722222,
+        "denom":  "catolica",
+        "year":  1995,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Nuestra Señora de Le Puy",
+        "city":  "Grasse",
+        "country":  "Francia",
+        "lat":  43.657777777,
+        "lng":  6.924722222,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de San Patricio de Karachi",
+        "city":  "Karachi",
+        "country":  "Pakistán",
+        "lat":  24.86,
+        "lng":  67.01,
+        "denom":  "catolica",
+        "year":  1845,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Transfiguration Cathedral",
+        "city":  "Toliatti",
+        "country":  "Rusia",
+        "lat":  53.521011,
+        "lng":  49.278014,
+        "denom":  "catolica",
+        "year":  null,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Santa María de Luxemburgo",
+        "city":  "Luxemburgo",
+        "country":  "Luxemburgo",
+        "lat":  49.609666666,
+        "lng":  6.131555555,
+        "denom":  "catolica",
+        "year":  1938,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
+    },
+    {
+        "name":  "Catedral de Lavaur",
+        "city":  "Lavaur",
+        "country":  "Francia",
+        "lat":  43.69922222,
+        "lng":  1.82186111,
+        "denom":  "catolica",
+        "year":  1255,
+        "note":  "Registro incorporado desde Wikidata para ampliación del atlas."
     }
 ]
